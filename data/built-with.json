@@ -1,0 +1,1515 @@
+{
+  "source": "https://github.com/corsairdev/awesome-corsair",
+  "categories": [
+    {
+      "id": "email-calendar",
+      "title": "Email and calendar",
+      "blurb": "Inbox clients, assistants and schedulers on Gmail, Outlook and Google Calendar."
+    },
+    {
+      "id": "productivity",
+      "title": "Workspaces",
+      "blurb": "One place for three or more apps, such as mail, calendar, Slack, GitHub and Drive."
+    },
+    {
+      "id": "ops-automation",
+      "title": "Team automation",
+      "blurb": "Agents that move work between team tools, such as meetings to issues or releases to changelogs."
+    },
+    {
+      "id": "industry-apps",
+      "title": "Apps for one industry",
+      "blurb": "Products for a single audience that use Corsair for alerts, booking or notices."
+    },
+    {
+      "id": "research-intel",
+      "title": "Research",
+      "blurb": "People, companies and meetings, looked up before you need them."
+    },
+    {
+      "id": "framework-integrations",
+      "title": "Agent platforms",
+      "blurb": "Platforms and frameworks that run Corsair as their integration layer."
+    },
+    {
+      "id": "tutorials-writeups",
+      "title": "Write-ups",
+      "blurb": "Posts and guides that explain how something was built on Corsair."
+    }
+  ],
+  "projects": [
+    {
+      "id": "neurosync",
+      "name": "Neurosync",
+      "url": "https://theneurosync.in",
+      "repo": "sharmadipalidev/neurosync",
+      "author": "@sharmadipalidev",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A personal AI operator that summarizes threads, drafts replies and schedules Google Calendar events through a chat agent.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "helm",
+      "name": "Helm",
+      "url": "https://helm.houndcode.com",
+      "repo": "NandishwarSingh/helm",
+      "author": "@NandishwarSingh",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A keyboard-first command center for Gmail and Google Calendar that puts search, triage, scheduling and replies a keystroke away.",
+      "event": "ChaiCode cohort",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "superalien",
+      "name": "SuperAlien",
+      "url": "https://superalein.lalitgurjar.in",
+      "repo": "lalit999999/super-alien",
+      "author": "@lalit999999",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "Adds triage, summaries and agent actions on top of Gmail and Google Calendar, built as a modular Next.js app on Corsair connectors.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "tsunagu",
+      "name": "Tsunagu",
+      "url": "https://github.com/DhruvSood05/tsunagu",
+      "repo": "DhruvSood05/tsunagu",
+      "author": "@DhruvSood05",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "Turns one natural-language command into Gmail and Google Calendar actions, such as sending an email and scheduling the meeting together.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "yugati",
+      "name": "Yugati",
+      "url": "https://www.yugati.in",
+      "repo": "srvjha/yugati",
+      "author": "@srvjha",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "Manages Gmail and Google Calendar through an OpenAI Agents SDK chat or a manual interface, with an admin panel for usage and costs.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "inhumane",
+      "name": "Inhumane",
+      "url": "https://github.com/realSUDO/inhumane",
+      "repo": "realSUDO/inhumane",
+      "author": "@realSUDO",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A minimal canvas for reading Gmail, writing inline replies and managing Google Calendar without a chatbot interface.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "superea",
+      "name": "SuperEA",
+      "url": "https://www.superea.app",
+      "repo": "SChakraborty04/projectSEA",
+      "author": "@SChakraborty04",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "telegram",
+        "mcp"
+      ],
+      "description": "An executive assistant that reacts to Gmail and Calendar webhooks and lets you approve or revise drafts from a dashboard or Telegram.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "briefly-ai",
+      "name": "Briefly AI",
+      "url": "https://briiefly-ai.vercel.app",
+      "repo": "Satya7250/Briefly-AI",
+      "author": "@Satya7250",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "Unifies Gmail and Google Calendar with inbox briefings, an assistant and meeting prep in one workspace.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "chai-sonic",
+      "name": "Chai Sonic",
+      "url": "https://www.chaisonic.com",
+      "repo": "akash-yadav-hack/chaisonic-superhuman-clone",
+      "author": "@akash-yadav-hack",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github",
+        "mcp"
+      ],
+      "description": "A keyboard-first email and calendar dashboard where an agent runs cross-app requests, such as booking a meeting and emailing the invitee.",
+      "event": "ChaiCode cohort",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "coxswainai",
+      "name": "CoxswainAI",
+      "url": "https://cox-swain-ai.vercel.app",
+      "repo": "vismay1307/CoxSwainAI",
+      "author": "@vismay1307",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github"
+      ],
+      "description": "A Superhuman-inspired inbox and calendar app with AI assistance, using Corsair for Gmail, Google Calendar and GitHub.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "nexus",
+      "name": "Nexus",
+      "url": "https://github.com/Shaurya9935/nexus",
+      "repo": "Shaurya9935/nexus",
+      "author": "@Shaurya9935",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github",
+        "mcp"
+      ],
+      "description": "A Gmail and Google Calendar command center for searching, triaging, drafting and scheduling by natural language or direct controls.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "nova-ai",
+      "name": "Nova AI",
+      "url": "https://nova.rajibdev.me",
+      "repo": "Rajib1504/Nova",
+      "author": "@Rajib1504",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A Superhuman-style workspace where an OpenAI agent on Corsair MCP reads mail, drafts replies and manages the calendar, with voice input.",
+      "event": "ChaiCode cohort",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "relay-devx2107",
+      "name": "Relay",
+      "url": "https://relay-lemon-tau.vercel.app",
+      "repo": "Devx2107/relay",
+      "author": "@Devx2107",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "A console for email triage and scheduling that keeps Gmail and Calendar calls server-side and holds every write until you approve it.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "aethra",
+      "name": "Aethra",
+      "url": "https://aethra.rachittaneja.in",
+      "repo": "rachittaneja56-max/superhumanclone",
+      "author": "@rachittaneja56-max",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "An email and calendar app with AI drafting, human review of agent actions, admin tools and billing, using Corsair for Gmail and Calendar.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "argon-ai",
+      "name": "ARGON AI",
+      "url": "https://argon.priyanshu.cv",
+      "repo": "priyanshwho/argonai",
+      "author": "@priyanshwho",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "A Gmail and Calendar workspace where the assistant prepares editable email and outreach drafts for review, with per-user rate limits.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "askclerio",
+      "name": "AskClerio",
+      "url": "https://askclerio.dev",
+      "repo": "himanshubalani/askclerio",
+      "author": "@himanshubalani",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github",
+        "mcp"
+      ],
+      "description": "A keyboard-first command center for Gmail and Google Calendar that turns multi-step tasks like invite plus confirmation email into one command.",
+      "event": "ChaiCode cohort",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "calrix",
+      "name": "Calrix",
+      "url": "https://github.com/bikash138/Calrix",
+      "repo": "bikash138/Calrix",
+      "author": "@bikash138",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "Sorts Gmail into reply, approval, meeting and FYI buckets, drafts replies in your voice and tracks replies you are still waiting on.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "camail-ai",
+      "name": "Camail AI",
+      "url": "https://camail-ai.vercel.app",
+      "repo": "jaiPrakash0909/Camail_Ai",
+      "author": "@jaiPrakash0909",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "A keyboard-first workspace that routes every Gmail and Google Calendar operation through Corsair, with OpenAI or Gemini command parsing.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "chai-combinator",
+      "name": "Chai Combinator",
+      "url": "https://github.com/Mayank-saraswal/superhuman",
+      "repo": "Mayank-saraswal/superhuman",
+      "author": "@Mayank-saraswal",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "slack",
+        "linear",
+        "notion",
+        "mcp"
+      ],
+      "description": "An email client for founders and sales teams that triages, writes and organizes mail with AI, using Corsair for Gmail and Calendar.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "chronos",
+      "name": "Chronos",
+      "url": "https://github.com/anshdietcoke20/chronos-chaicode",
+      "repo": "anshdietcoke20/chronos-chaicode",
+      "author": "@anshdietcoke20",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "JavaScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github"
+      ],
+      "description": "A productivity dashboard with Gmail, Google Calendar, an agent chat, a command palette and one Corsair tenant per user.",
+      "event": "ChaiCode cohort",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "command-box",
+      "name": "Command Box",
+      "url": "https://github.com/ashishsingodiya/commandbox",
+      "repo": "ashishsingodiya/commandbox",
+      "author": "@ashishsingodiya",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A Superhuman-style Gmail and Calendar client with cache-first threads, webhooks, semantic search and an AI copilot for drafting.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "command-inbox-ishan-parnami",
+      "name": "Command Inbox",
+      "url": "https://github.com/Ishan-Parnami/command-inbox",
+      "repo": "Ishan-Parnami/command-inbox",
+      "author": "@Ishan-Parnami",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "A Superhuman-style Gmail and Calendar client with Vim keys, Gemini priority sorting, natural-language compose and MCP agent chat.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "command-inbox-sayantanbal",
+      "name": "Command Inbox",
+      "url": "https://command-inbox.sayantanbal.in",
+      "repo": "sayantanbal/commad-inbox",
+      "author": "@sayantanbal",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "Triages Gmail into reply, schedule and FYI lanes, turns an email into a meeting in one keystroke and runs agent workflows through Corsair MCP.",
+      "event": "ChaiCode cohort",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "corsair-mail",
+      "name": "Corsair Mail",
+      "url": "https://github.com/debeshghorui/corsair-project",
+      "repo": "debeshghorui/corsair-project",
+      "author": "@debeshghorui",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "JavaScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github",
+        "mcp"
+      ],
+      "description": "A Superhuman-style Gmail and Calendar client with a split-pane inbox, local search, AI priority triage and a bring-your-own-key agent.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "flux",
+      "name": "Flux",
+      "url": "https://flux-beryl-two.vercel.app",
+      "repo": "Ankit0362/flux",
+      "author": "@Ankit0362",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "An executive assistant over Gmail and Google Calendar that builds a daily briefing and handles mail and meetings from one screen.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "ginnie-ai",
+      "name": "Ginnie AI",
+      "url": "https://ginnie-iota.vercel.app",
+      "repo": "karan2opp/Ginnie",
+      "author": "@karan2opp",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github",
+        "mcp"
+      ],
+      "description": "Categorizes, summarizes and automates email and calendar work from one command center, with subscription tiers billed through Razorpay.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "king-mode",
+      "name": "King Mode",
+      "url": "https://kingmode.skullcoder.dev",
+      "repo": "Skull-coder/king_mode--corsair-hackathon",
+      "author": "@Skull-coder",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A keyboard-driven email and calendar app with a command center where a bring-your-own-key AI runs multi-step Gmail and Calendar tasks.",
+      "event": "ChaiCode cohort",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "koda",
+      "name": "KODA",
+      "url": "https://koda.shubhamdalvi.in",
+      "repo": "codermoderSD/koda",
+      "author": "@codermoderSD",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "Gmail and Google Calendar behind one typed or spoken command, for drafting replies, booking meetings and tracking what you are owed.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "maical",
+      "name": "Maical",
+      "url": "https://maical.vercel.app",
+      "repo": "shubh7470/corsair",
+      "author": "@shubh7470",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A multi-tenant assistant that reads your inbox and sends email for you, using @corsair-dev/mcp with OpenAI Agents.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "mailpilot",
+      "name": "MailPilot",
+      "url": "https://github.com/omkarg419/MailPilot",
+      "repo": "omkarg419/MailPilot",
+      "author": "@omkarg419",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "Wraps Gmail and Google Calendar in mail, calendar and agent workspaces where you search mail, draft emails and book meetings in plain language.",
+      "event": "ChaiCode cohort",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "mailpoint",
+      "name": "MailPoint",
+      "url": "https://mailpoint.piyushdev.online",
+      "repo": "Piyushkumar-20/MailPoint",
+      "author": "@Piyushkumar-20",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "Turns one request into a coordinated Gmail and Google Calendar workflow, such as scheduling a meeting and sending the confirmation.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "mailroid",
+      "name": "Mailroid",
+      "url": "https://github.com/Shriyansh10/mailroid",
+      "repo": "Shriyansh10/mailroid",
+      "author": "@Shriyansh10",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "Prioritizes email, writes executive briefings and runs natural-language actions across Gmail and Google Calendar.",
+      "event": "ChaiCode cohort",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "marilume",
+      "name": "Marilume",
+      "url": "https://www.marilume.xyz",
+      "repo": "shweta-nigam/marilume",
+      "author": "@shweta-nigam",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A Superhuman-inspired email and calendar workspace with an AI assistant, built on Corsair Gmail and Calendar plugins.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "meridian",
+      "name": "Meridian",
+      "url": "https://meridian.parthmunjal.in",
+      "repo": "parthmunjal07/meridian",
+      "author": "@parthmunjal07",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "An email and calendar client with an agent chat, voice commands and a morning digest, built on the Vercel AI SDK and Corsair.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "modern-connect",
+      "name": "Modern Connect",
+      "url": "https://modern-connect-mu.vercel.app",
+      "repo": "thakurdivyanshugahlot/modern-connect",
+      "author": "@thakurdivyanshugahlot",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A real-time dashboard that shows Gmail and Google Calendar side by side, using the Corsair SDK for the Google APIs.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "neutronmail",
+      "name": "NeutronMail",
+      "url": "https://neutron-mail.vercel.app",
+      "repo": "ANAMASGARD/NeutronMail",
+      "author": "@ANAMASGARD",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "Rebuilds the NormalHuman keyboard-first email client on Corsair for Gmail and Calendar, with a demo mailbox until live credentials are set.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "novus-flow",
+      "name": "Novus Flow",
+      "url": "https://novus-flow.vercel.app",
+      "repo": "Aryan22N/Novus-Flow",
+      "author": "@Aryan22N",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github",
+        "mcp"
+      ],
+      "description": "Puts email, calendar and an AI assistant in one interface to cut down switching between apps.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "orbit",
+      "name": "Orbit",
+      "url": "https://github.com/rayvishal024/orbit",
+      "repo": "rayvishal024/orbit",
+      "author": "@rayvishal024",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "Brings Gmail, Google Calendar and an AI assistant into one workspace for reading mail, managing meetings and scheduling events.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "relay-bhavay098",
+      "name": "Relay",
+      "url": "https://relay.bhavaynagpal.com",
+      "repo": "bhavay098/relay",
+      "author": "@bhavay098",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "JavaScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "Combines Gmail and Google Calendar with a chat agent that drafts emails and books events after you approve them.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "relay-kashyav367",
+      "name": "Relay",
+      "url": "https://github.com/kashyav367/relay",
+      "repo": "kashyav367/relay",
+      "author": "@kashyav367",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "An executive assistant for Gmail and Google Calendar that summarizes unread mail, drafts replies and prepares daily briefings.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "second-brain",
+      "name": "Second Brain",
+      "url": "https://secondbrain.sameerbhagtani.dev",
+      "repo": "sameerbhagtani/second-brain",
+      "author": "@sameerbhagtani",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A chat workspace built with Clerk, Corsair and OpenAI Agents that connects to Gmail and Google Calendar.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "thread-algoartist06",
+      "name": "Thread",
+      "url": "https://ashutech.me",
+      "repo": "AlgoArtist06/Thread",
+      "author": "@AlgoArtist06",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A Gmail and Google Calendar client with AI triage, plain-language scheduling and an assistant that drafts replies and creates events.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "underpin",
+      "name": "Underpin",
+      "url": "https://github.com/maheshshm19/horizon_two",
+      "repo": "maheshshm19/horizon_two",
+      "author": "@maheshshm19",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "An AI workspace for Gmail and Calendar with vector search, an activity feed and rule-based suggestions on top of Corsair plugins.",
+      "event": "ChaiCode cohort",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "valora",
+      "name": "Valora",
+      "url": "https://www.valorahq.in",
+      "repo": "ashaafkhan/valora",
+      "author": "@ashaafkhan",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github"
+      ],
+      "description": "Merges Gmail, Google Calendar and an AI agent into one workspace, with a long write-up of how it uses the Corsair SDK.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "voyage",
+      "name": "Voyage",
+      "url": "https://github.com/Atishay-j-a-in/voyage_post",
+      "repo": "Atishay-j-a-in/voyage_post",
+      "author": "@Atishay-j-a-in",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A multi-tenant workspace that syncs Gmail and Calendar, embeds mail for semantic search and lets you act on both through chat.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "yugoma",
+      "name": "Yugoma",
+      "url": "https://yugoma.vercel.app",
+      "repo": "hustleCoderAnkur/yugoma",
+      "author": "@hustleCoderAnkur",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "Manages email, calendar and daily tasks through an AI chat, built with Next.js, tRPC and Drizzle.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "zeroclick",
+      "name": "ZeroClick",
+      "url": "https://zeroclick-xi.vercel.app",
+      "repo": "CodeX047/zeroclick",
+      "author": "@CodeX047",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "A keyboard-first command bar for Gmail and Google Calendar that drafts replies, schedules events and checks conflicts with Gemini.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "thread-ishaansatapathy",
+      "name": "Thread",
+      "url": "https://thread.ishaandev.co.in",
+      "repo": "ishaansatapathy/Thread",
+      "author": "@ishaansatapathy",
+      "category": "productivity",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "googledrive",
+        "googlesheets",
+        "googlemeet",
+        "mcp"
+      ],
+      "description": "An AI chief of staff for Gmail and Google Calendar with a daily brief and approval-gated actions, plus a companion MCP server on npm.",
+      "event": "ChaiCode cohort",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "supereye",
+      "name": "Supereye",
+      "url": "https://github.com/satyasootar/supereye",
+      "repo": "satyasootar/supereye",
+      "author": "@satyasootar",
+      "category": "productivity",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "googledrive",
+        "github",
+        "mcp"
+      ],
+      "description": "One workspace that connects Gmail, Google Calendar, GitHub and Google Drive so you can act across them without switching tabs.",
+      "event": "ChaiCode cohort",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "butlr",
+      "name": "Butlr",
+      "url": "https://github.com/Samrat880/Butlr",
+      "repo": "Samrat880/Butlr",
+      "author": "@Samrat880",
+      "category": "productivity",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github"
+      ],
+      "description": "A Gmail, Calendar and GitHub assistant with a chat panel, a daily brief, confirmation before destructive actions and usage tiers.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "hedwigs",
+      "name": "Hedwigs",
+      "url": "https://github.com/gourav-swami/sparrow-",
+      "repo": "gourav-swami/sparrow-",
+      "author": "@gourav-swami",
+      "category": "productivity",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "slack",
+        "linear",
+        "notion",
+        "outlook",
+        "asana",
+        "cal",
+        "calendly",
+        "fireflies",
+        "hubspot",
+        "intercom",
+        "jira",
+        "teams",
+        "todoist",
+        "zendesk",
+        "zoom"
+      ],
+      "description": "A shared inbox and AI chief of staff that scores email, drafts replies and schedules across Gmail, Outlook, Slack, Linear and other tools.",
+      "event": "ChaiCode cohort",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "momentum",
+      "name": "Momentum",
+      "url": "https://momentum-hackathon-sr.vercel.app",
+      "repo": "saurabhravte/momentum",
+      "author": "@saurabhravte",
+      "category": "productivity",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github",
+        "slack",
+        "mcp"
+      ],
+      "description": "Pulls Gmail, Google Calendar, Slack and GitHub into one priority inbox and runs plain-language requests after you approve them.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "open-connect",
+      "name": "Open Connect",
+      "url": "https://github.com/anandxdj/open_connect",
+      "repo": "anandxdj/open_connect",
+      "author": "@anandxdj",
+      "category": "productivity",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github",
+        "slack"
+      ],
+      "description": "A chat-first app where an agent acts on Gmail, Google Calendar, Slack and GitHub through Corsair, with approval before risky actions.",
+      "event": "ChaiCode cohort",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "ai-changelog-narrator",
+      "name": "AI Changelog Narrator",
+      "url": "https://github.com/VarshithKrishna14/AI-Changelog",
+      "repo": "VarshithKrishna14/AI-Changelog",
+      "author": "@VarshithKrishna14",
+      "category": "ops-automation",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "github",
+        "slack",
+        "notion"
+      ],
+      "description": "When you publish a GitHub release it writes a changelog, posts it to Slack and archives it in Notion, with GitHub kept read-only.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "ai-guardian",
+      "name": "AI Guardian",
+      "url": "https://github.com/Aviralgit1212/AI-GUARDIAN",
+      "repo": "Aviralgit1212/AI-GUARDIAN",
+      "author": "@Aviralgit1212",
+      "category": "industry-apps",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "Python",
+        "TypeScript"
+      ],
+      "corsair": [
+        "slack"
+      ],
+      "description": "A data-loss-prevention layer that checks what users send to ChatGPT or Claude and alerts a Slack reviewer through a Corsair sidecar.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "pharmsecure",
+      "name": "PharmSecure",
+      "url": "https://github.com/Phasmmo7/pharmsecure",
+      "repo": "Phasmmo7/pharmsecure",
+      "author": "@Phasmmo7",
+      "category": "industry-apps",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "JavaScript"
+      ],
+      "corsair": [
+        "gmail",
+        "github",
+        "slack",
+        "mcp"
+      ],
+      "description": "A pharmaceutical supply-chain verification prototype whose agent posts alerts to Slack, files GitHub issues and sends email through Corsair.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "lakshya-scheduling",
+      "name": "Lakshya Scheduling",
+      "url": "https://lakshya-scheduling.vercel.app",
+      "repo": "MRIARC-08/lakshya-scheduling",
+      "author": "@MRIARC-08",
+      "category": "industry-apps",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript",
+        "Python"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "A mentorship booking system for civil service aspirants where a LangGraph agent books sessions through a Corsair Gmail and Calendar bridge.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "avintra",
+      "name": "Avintra",
+      "url": "https://github.com/aventisia/avintra",
+      "repo": "aventisia/avintra",
+      "author": "@aventisia",
+      "category": "framework-integrations",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "github",
+        "slack",
+        "linear",
+        "notion",
+        "hubspot",
+        "jira",
+        "salesforce",
+        "plus-278-more"
+      ],
+      "description": "An enterprise agent and workflow platform that runs Corsair as an internal sidecar for app actions and OAuth across 287 plugins.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    },
+    {
+      "id": "corsair-xlap-writeup",
+      "name": "Corsair write-up on XLapTop blog",
+      "url": "https://blog.xlap.top/post/tech/2026-08-10/corsair/",
+      "repo": "liuchaowen/hugo-blog-papermod",
+      "author": "@liuchaowen",
+      "category": "tutorials-writeups",
+      "kind": [
+        "writeup"
+      ],
+      "lang": [],
+      "corsair": [
+        "gmail",
+        "github",
+        "slack"
+      ],
+      "description": "A Chinese-language overview of Corsair that explains credential isolation, permissions and multi-tenancy with code samples.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": true
+    }
+  ]
+}

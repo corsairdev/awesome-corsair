@@ -1,0 +1,29 @@
+# Section order in the README. Never renumber or rename an id: entries and anchors use them.
+
+- id: email-calendar
+  title: Email and calendar
+  blurb: Inbox clients, assistants and schedulers on Gmail, Outlook and Google Calendar.
+
+- id: productivity
+  title: Workspaces
+  blurb: One place for three or more apps, such as mail, calendar, Slack, GitHub and Drive.
+
+- id: ops-automation
+  title: Team automation
+  blurb: Agents that move work between team tools, such as meetings to issues or releases to changelogs.
+
+- id: industry-apps
+  title: Apps for one industry
+  blurb: Products for a single audience that use Corsair for alerts, booking or notices.
+
+- id: research-intel
+  title: Research
+  blurb: People, companies and meetings, looked up before you need them.
+
+- id: framework-integrations
+  title: Agent platforms
+  blurb: Platforms and frameworks that run Corsair as their integration layer.
+
+- id: tutorials-writeups
+  title: Write-ups
+  blurb: Posts and guides that explain how something was built on Corsair.

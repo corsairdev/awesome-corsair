@@ -1,0 +1,12 @@
+{
+  "name": "awesome-corsair",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Apps, agents and tools built on Corsair.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/build.mjs --check"
+  },
+  "license": "CC0-1.0"
+}
