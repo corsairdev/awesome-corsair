@@ -745,7 +745,11 @@
       "hosted": false,
       "added": "2026-11-20",
       "verified": true,
-      "image": null
+      "image": {
+        "path": "data/shots/corsair-mail.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "flux",
@@ -1482,7 +1486,11 @@
       "hosted": false,
       "added": "2026-11-20",
       "verified": true,
-      "image": null
+      "image": {
+        "path": "data/shots/supereye.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "butlr",
@@ -1550,7 +1558,11 @@
       "hosted": false,
       "added": "2026-11-20",
       "verified": true,
-      "image": null
+      "image": {
+        "path": "data/shots/hedwigs.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "momentum",
@@ -1608,7 +1620,11 @@
       "hosted": false,
       "added": "2026-11-20",
       "verified": true,
-      "image": null
+      "image": {
+        "path": "data/shots/open-connect.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "ai-changelog-narrator",
