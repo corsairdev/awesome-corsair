@@ -124,6 +124,131 @@
       "verdict": "held",
       "reason": "held: sets up Corsair but its alerts call Slack and GitHub directly",
       "date": "2026-11-20"
+    },
+    "linyiru/yc-oss-analytics": {
+      "verdict": "rejected",
+      "reason": "The Corsair hit is only analysis data about the Corsair repo itself in data/repos/corsair.json, so the project does not use Corsair.",
+      "date": "2026-11-20"
+    },
+    "axiom-studio/mcps": {
+      "verdict": "rejected",
+      "reason": "This is a catalog of many remote MCP servers where Corsair is only one entry in a subfolder, not a project built on Corsair.",
+      "date": "2026-11-20"
+    },
+    "ghostinhex/novus-mail": {
+      "verdict": "accepted",
+      "reason": "An independent Gmail and Google Calendar client with a live deployment that uses Corsair's Gmail and Calendar plugins, as the code search hit in corsair-email/next.config.ts shows.",
+      "date": "2026-11-20"
+    },
+    "bruceamoser/openbad": {
+      "verdict": "rejected",
+      "reason": "Corsair appears only in the archived v0 subfolder (archive/openbad-v0), while the current Rust/Tauri project does not use Corsair.",
+      "date": "2026-11-20"
+    },
+    "manish-dev38/tsunagu": {
+      "verdict": "accepted",
+      "reason": "Independent Next.js Gmail and Calendar assistant that depends on corsair, @corsair-dev/gmail and @corsair-dev/googlecalendar, with a Corsair setup script.",
+      "date": "2026-11-20"
+    },
+    "namirali/companyenrich-integrations": {
+      "verdict": "rejected",
+      "reason": "It is a multi-framework collection of CompanyEnrich adapters where Corsair is only one subfolder (corsair/), not a project built on Corsair.",
+      "date": "2026-11-20"
+    },
+    "th-efool/undone-site": {
+      "verdict": "accepted",
+      "reason": "An independent, substantial learning platform that depends on corsair, @corsair-dev/github and @corsair-dev/notion and imports them in src/server/corsair.ts to ingest repositories and Notion workspaces.",
+      "date": "2026-11-20"
+    },
+    "arsh-coding/personal-ai-dashboard": {
+      "verdict": "accepted",
+      "reason": "An independent Next.js dashboard that depends on corsair and the Gmail, Google Calendar and Google Meet plugins, with its own multi-tenant sync, assistant and deployment.",
+      "date": "2026-11-20"
+    },
+    "reaperoak/forgeos": {
+      "verdict": "rejected",
+      "reason": "The only Corsair trace is a README in an integrations/corsair subfolder of a large SDLC engine, with no root dependency or visible Corsair imports shown, so Corsair is not shown to be part of how the project works.",
+      "date": "2026-11-20"
+    },
+    "0xteamhq/socket": {
+      "verdict": "rejected",
+      "reason": "Socket is a standalone Rust integration library that only mentions @corsair-dev/slack in a research note on other projects, so it does not use Corsair itself.",
+      "date": "2026-11-20"
+    },
+    "abhinavbist-01/noctra": {
+      "verdict": "accepted",
+      "reason": "An independent Gmail and Google Calendar client that depends on corsair and @corsair-dev/gmail and @corsair-dev/googlecalendar, with Corsair code in src/server/corsair.ts.",
+      "date": "2026-11-20"
+    },
+    "learner-enthusiast/noclickmail": {
+      "verdict": "accepted",
+      "reason": "An independent, deployed Gmail and Calendar assistant that depends on @corsair-dev/gmail in apps/api/package.json and runs a Corsair setup and connect flow.",
+      "date": "2026-11-20"
+    },
+    "kushagratrvd/camail": {
+      "verdict": "accepted",
+      "reason": "An independent Next.js app that depends on corsair and @corsair-dev/gmail and googlecalendar to run an AI assistant over Gmail and Google Calendar.",
+      "date": "2026-11-20"
+    },
+    "utkarshkumar005/care360-app": {
+      "verdict": "accepted",
+      "reason": "An independent healthcare platform that depends on corsair and @corsair-dev/github and calls createCorsair in src/server/corsair.ts to open GitHub procurement issues.",
+      "date": "2026-11-20"
+    },
+    "thetejascodes/meridian": {
+      "verdict": "accepted",
+      "reason": "An independent Gmail and Google Calendar client that depends on corsair and @corsair-dev/gmail and @corsair-dev/googlecalendar, with a Corsair instance in src/server/corsair.ts and webhook sync.",
+      "date": "2026-11-20"
+    },
+    "tonystarkw12/nix-config": {
+      "verdict": "rejected",
+      "reason": "This is a personal server environment backup where @corsair-dev/github only appears as a line in a bun global package snapshot, not as a project built on Corsair.",
+      "date": "2026-11-20"
+    },
+    "soumen0908/airlockv1": {
+      "verdict": "rejected",
+      "reason": "With no README, no description and no root package.json, there is not enough evidence that this is a real project rather than a bare test, though one file does import @corsair-dev/gmail.",
+      "date": "2026-11-20"
+    },
+    "notlevi911/airlock": {
+      "verdict": "rejected",
+      "reason": "With no README, no description and no root package.json, the only evidence is one code search hit in a subfolder, which is not enough to show a real project.",
+      "date": "2026-11-20"
+    },
+    "h-anand21/hackathon": {
+      "verdict": "rejected",
+      "reason": "The only visible Corsair use is a test-inspect.js script inside a DootAi subfolder of a repo with no README or root package.json, so it reads as a bare test in a hackathon collection rather than a project built on Corsair.",
+      "date": "2026-11-20"
+    },
+    "zeitgeistxx/ticket-star": {
+      "verdict": "rejected",
+      "reason": "The only Corsair trace is a mention of \"@corsair-dev/github\" in a corsair.md notes file, with no root package.json, Corsair dependency, imports or MCP URL shown, so visible Corsair use is not established.",
+      "date": "2026-11-20"
+    },
+    "rony0000013/agenova": {
+      "verdict": "rejected",
+      "reason": "The only Corsair trace is a mention of \"@corsair-dev/github\" in a corsair.md notes file, with no Corsair dependency, imports or MCP config in the app, which is a Stellar AI agent marketplace built on FastAPI and React.",
+      "date": "2026-11-20"
+    },
+    "abhraneel2004/token_fund_new": {
+      "verdict": "rejected",
+      "reason": "The only Corsair trace is a reference doc (corsair.md) mentioning @corsair-dev/github, with no visible Corsair dependency, import, or MCP config in the files shown.",
+      "date": "2026-11-20"
+    },
+    "yogyaa20/chrono": {
+      "verdict": "rejected",
+      "reason": "With no README, no description and no root package.json, nothing shows a real project beyond a Gmail dependency in a corsair-service subfolder, so it can't be verified as more than a test.",
+      "date": "2026-11-20"
+    },
+    "mayank-saraswal/corsair-agentsetup": {
+      "verdict": "rejected",
+      "reason": "It is a bare Corsair Hub setup scaffold on create-next-app that only connects GitHub and verifies one API call, a setup test rather than a real project.",
+      "date": "2026-11-20"
+    },
+    "divakardsp/negev": {
+      "verdict": "rejected",
+      "reason": "It depends on corsair and @corsair-dev/github, but the README is the unchanged create-next-app boilerplate and nothing shown proves a working Outlook or Gmail app, so it looks like an early scaffold rather than a real project.",
+      "date": "2026-11-20"
     }
   }
 }

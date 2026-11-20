@@ -1510,6 +1510,219 @@
       "hosted": false,
       "added": "2026-11-20",
       "verified": true
+    },
+    {
+      "id": "novus-mail",
+      "name": "NovusMail",
+      "url": "https://novus.vinayrp.in/",
+      "repo": "GhostInHex/novus-mail",
+      "author": "@GhostInHex",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "Keyboard-first Gmail and Google Calendar workspace with a command palette, cached search, live updates and an AI assistant that needs approval.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": false
+    },
+    {
+      "id": "manish-dev38-tsunagu",
+      "name": "Tsunagu",
+      "url": "https://github.com/Manish-dev38/tsunagu",
+      "repo": "Manish-dev38/tsunagu",
+      "author": "@Manish-dev38",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "Chat-first Gmail and Google Calendar assistant that asks for approval before writes and also offers direct read and write views.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": false
+    },
+    {
+      "id": "undone-site",
+      "name": "Undone",
+      "url": "https://sidequesthq-site.vercel.app",
+      "repo": "th-efool/undone-site",
+      "author": "@th-efool",
+      "category": "industry-apps",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "github",
+        "notion"
+      ],
+      "description": "Microlearning platform that turns YouTube videos, articles, GitHub repos and Notion pages into short lessons, adaptive feeds, cohorts and study rooms.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": false
+    },
+    {
+      "id": "personal-ai-dashboard",
+      "name": "Personal AI Dashboard",
+      "url": "https://personal-ai-dashboard-eight.vercel.app",
+      "repo": "Arsh-Coding/Personal-Ai-Dashboard",
+      "author": "@Arsh-Coding",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "googlemeet"
+      ],
+      "description": "Multi-user dashboard for Gmail, Google Calendar and Google Meet, with an assistant that drafts emails and schedules meetings for you to confirm.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": false
+    },
+    {
+      "id": "noctra",
+      "name": "Noctra",
+      "url": "https://github.com/AbhinavBist-01/noctra",
+      "repo": "AbhinavBist-01/noctra",
+      "author": "@AbhinavBist-01",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "A Gmail and Google Calendar dashboard where you send mail, draft replies and schedule events with natural language commands, caching data in Postgres.",
+      "event": "",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": false
+    },
+    {
+      "id": "noclickmail",
+      "name": "Orion",
+      "url": "https://orion.arnabsamanta.in/",
+      "repo": "learner-enthusiast/NoClickMail",
+      "author": "@learner-enthusiast",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "AI assistant for Gmail and Google Calendar that syncs mail and events, summarizes threads, drafts replies and schedules meetings.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": false
+    },
+    {
+      "id": "camail",
+      "name": "Camail",
+      "url": "https://camail.kushagratrivedi.me",
+      "repo": "kushagratrvd/Camail",
+      "author": "@kushagratrvd",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar",
+        "mcp"
+      ],
+      "description": "Chat assistant that reads, drafts and replies to Gmail and schedules Google Calendar events, using your own Gemini, OpenAI or Claude key.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-20",
+      "verified": false
+    },
+    {
+      "id": "care360-app",
+      "name": "CARE360",
+      "url": "https://github.com/Utkarshkumar005/care360-app",
+      "repo": "Utkarshkumar005/care360-app",
+      "author": "@Utkarshkumar005",
+      "category": "industry-apps",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "github"
+      ],
+      "description": "Healthcare platform for patients, doctors, pharmacies and admins that uses Corsair to open GitHub procurement issues when pharmacy stock runs out.",
+      "event": "Hack & Build 2026",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": false
+    },
+    {
+      "id": "thetejascodes-meridian",
+      "name": "Meridian",
+      "url": "https://github.com/thetejascodes/Meridian",
+      "repo": "thetejascodes/Meridian",
+      "author": "@thetejascodes",
+      "category": "email-calendar",
+      "kind": [
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail",
+        "googlecalendar"
+      ],
+      "description": "A Gmail and Google Calendar client for searching, drafting and sending mail and creating events, with webhooks syncing a local Postgres cache.",
+      "event": "Corsair Hackathon",
+      "hosted": false,
+      "added": "2026-11-20",
+      "verified": false
     }
   ]
 }
