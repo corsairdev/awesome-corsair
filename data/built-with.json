@@ -61,7 +61,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/neurosync.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "helm",
@@ -86,7 +91,12 @@
       "event": "ChaiCode cohort",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/helm.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "superalien",
@@ -110,7 +120,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/superalien.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "tsunagu",
@@ -134,7 +149,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/tsunagu.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "yugati",
@@ -159,7 +179,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/yugati.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "inhumane",
@@ -183,7 +208,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/inhumane.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "superea",
@@ -209,7 +239,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/superea.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "briefly-ai",
@@ -234,7 +269,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/briefly-ai.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "chai-sonic",
@@ -260,7 +300,12 @@
       "event": "ChaiCode cohort",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/chai-sonic.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "coxswainai",
@@ -285,7 +330,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/coxswainai.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "nexus",
@@ -310,7 +360,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/nexus.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "nova-ai",
@@ -335,7 +390,12 @@
       "event": "ChaiCode cohort",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/nova-ai.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "relay-devx2107",
@@ -359,7 +419,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/relay-devx2107.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "aethra",
@@ -383,7 +448,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/aethra.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "argon-ai",
@@ -407,7 +477,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/argon-ai.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "askclerio",
@@ -433,7 +508,12 @@
       "event": "ChaiCode cohort",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/askclerio.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "calrix",
@@ -457,7 +537,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/calrix.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "camail-ai",
@@ -481,7 +566,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/camail-ai.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "chai-combinator",
@@ -508,7 +598,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/chai-combinator.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "chronos",
@@ -532,7 +627,12 @@
       "event": "ChaiCode cohort",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/chronos.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "command-box",
@@ -556,7 +656,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/command-box.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "command-inbox-ishan-parnami",
@@ -579,7 +684,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/command-inbox-ishan-parnami.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "command-inbox-sayantanbal",
@@ -604,7 +714,12 @@
       "event": "ChaiCode cohort",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/command-inbox-sayantanbal.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "corsair-mail",
@@ -629,7 +744,8 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": null
     },
     {
       "id": "flux",
@@ -653,7 +769,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/flux.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "ginnie-ai",
@@ -679,7 +800,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/ginnie-ai.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "king-mode",
@@ -704,7 +830,12 @@
       "event": "ChaiCode cohort",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/king-mode.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "koda",
@@ -729,7 +860,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/koda.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "maical",
@@ -754,7 +890,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/maical.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "mailpilot",
@@ -777,7 +918,12 @@
       "event": "ChaiCode cohort",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/mailpilot.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "mailpoint",
@@ -802,7 +948,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/mailpoint.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "mailroid",
@@ -825,7 +976,12 @@
       "event": "ChaiCode cohort",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/mailroid.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "marilume",
@@ -850,7 +1006,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/marilume.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "meridian",
@@ -874,7 +1035,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/meridian.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "modern-connect",
@@ -899,7 +1065,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/modern-connect.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "neutronmail",
@@ -923,7 +1094,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/neutronmail.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "novus-flow",
@@ -949,7 +1125,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/novus-flow.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "orbit",
@@ -972,7 +1153,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/orbit.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "relay-bhavay098",
@@ -996,7 +1182,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/relay-bhavay098.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "relay-kashyav367",
@@ -1019,7 +1210,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/relay-kashyav367.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "second-brain",
@@ -1044,7 +1240,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/second-brain.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "thread-algoartist06",
@@ -1069,7 +1270,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/thread-algoartist06.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "underpin",
@@ -1092,7 +1298,12 @@
       "event": "ChaiCode cohort",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/underpin.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "valora",
@@ -1117,7 +1328,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/valora.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "voyage",
@@ -1141,7 +1357,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/voyage.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "yugoma",
@@ -1166,7 +1387,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/yugoma.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "zeroclick",
@@ -1191,7 +1417,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/zeroclick.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "thread-ishaansatapathy",
@@ -1219,7 +1450,12 @@
       "event": "ChaiCode cohort",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/thread-ishaansatapathy.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "supereye",
@@ -1245,7 +1481,8 @@
       "event": "ChaiCode cohort",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": null
     },
     {
       "id": "butlr",
@@ -1269,7 +1506,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/butlr.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "hedwigs",
@@ -1307,7 +1549,8 @@
       "event": "ChaiCode cohort",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": null
     },
     {
       "id": "momentum",
@@ -1334,7 +1577,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/momentum.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "open-connect",
@@ -1359,7 +1607,8 @@
       "event": "ChaiCode cohort",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": null
     },
     {
       "id": "ai-changelog-narrator",
@@ -1383,7 +1632,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/ai-changelog-narrator.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "ai-guardian",
@@ -1406,7 +1660,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/ai-guardian.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "pharmsecure",
@@ -1431,7 +1690,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/pharmsecure.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "lakshya-scheduling",
@@ -1456,7 +1720,12 @@
       "event": "",
       "hosted": true,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/lakshya-scheduling.jpg",
+        "width": 1280,
+        "height": 800
+      }
     },
     {
       "id": "avintra",
@@ -1487,7 +1756,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/avintra.png",
+        "width": 1200,
+        "height": 600
+      }
     },
     {
       "id": "corsair-xlap-writeup",
@@ -1509,7 +1783,12 @@
       "event": "",
       "hosted": false,
       "added": "2026-11-20",
-      "verified": true
+      "verified": true,
+      "image": {
+        "path": "data/shots/corsair-xlap-writeup.png",
+        "width": 1200,
+        "height": 600
+      }
     }
   ]
 }

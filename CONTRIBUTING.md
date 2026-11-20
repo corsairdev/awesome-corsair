@@ -9,6 +9,8 @@ Open a pull request that adds one entry to [`data/projects.yaml`](data/projects.
 3. Run `npm run build` (Node 18 or later, nothing to install). It regenerates `README.md` and `data/built-with.json` from the data, and CI fails if you skip it.
 4. Commit all three files and open the pull request. One project per pull request.
 
+You don't add a picture. Once your entry is merged, a workflow takes a screenshot of your live app (or uses GitHub's card for your repo if the entry has no live app) for the card on [corsair.dev/built-with](https://corsair.dev/built-with). If yours caught the page half loaded, open an issue and we'll take it again.
+
 ```yaml
 - id: your-project
   name: Your Project
