@@ -45,7 +45,7 @@ function waitFor(res, body) {
   return said ? Number(said[1]) * 1000 : 60_000;
 }
 
-async function gh(path, tries = 6) {
+async function gh(path, tries = 8) {
   for (let attempt = 1; ; attempt++) {
     const res = await fetch(`https://api.github.com/${path}`, {
       headers: { accept: "application/vnd.github+json", authorization: `Bearer ${process.env.GITHUB_TOKEN}`, "x-github-api-version": "2022-11-28" },
@@ -53,9 +53,10 @@ async function gh(path, tries = 6) {
     if (res.ok) return res.json();
     const body = await res.text();
     // Search has a tight secondary limit (a 429, or a 403 that says "rate limit"): wait as told, then try again.
+    // An Actions token can be told to wait over ten minutes; Actions minutes are free on a public repo, so it waits.
     const limited = res.status === 429 || (res.status === 403 && /rate limit/i.test(body));
     if (!limited || attempt === tries) throw new Error(`GitHub ${path}: ${res.status} ${body}`);
-    const ms = Math.min(waitFor(res, body) + 1000, 120_000);
+    const ms = Math.min(waitFor(res, body) + 1000, 20 * 60_000);
     console.log(`GitHub rate limit on ${path.split("?")[0]}, waiting ${Math.round(ms / 1000)}s`);
     await sleep(ms);
   }

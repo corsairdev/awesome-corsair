@@ -29,6 +29,8 @@ concurrency:
 jobs:
   sweep:
     runs-on: ubuntu-latest
+    # GitHub can make code search wait several minutes at a time.
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
         with:
@@ -58,7 +60,9 @@ jobs:
       - name: Find and grade new repos
         run: node tools/sweep/run.mjs
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional SEARCH_TOKEN: a read-only personal token gets a far larger code-search allowance than the
+          # workflow's own token. Without it the sweep waits out the limit.
+          GITHUB_TOKEN: ${{ secrets.SEARCH_TOKEN || secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           MAX_CANDIDATES: ${{ inputs.max_candidates || '25' }}
 
