@@ -20,6 +20,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 concurrency:
   group: sweep
@@ -83,6 +84,18 @@ jobs:
           open=$(gh pr list --head sweep/next --state open --json number --jq '.[0].number')
           if [ -n "$open" ]; then
             gh pr comment "$open" --body-file sweep-summary.md
+            exit 0
+          fi
+          if gh pr create --base main --head sweep/next --title "New projects built on Corsair" --body-file sweep-summary.md; then
+            exit 0
+          fi
+          # The corsairdev org doesn't let Actions open pull requests (Settings > Actions > General). Until an org
+          # admin allows it, the drafts wait on sweep/next and an issue links to them; one click opens the pull request.
+          compare="https://github.com/${GITHUB_REPOSITORY}/compare/main...sweep/next?expand=1"
+          { echo "New drafts are on \`sweep/next\`. [Open the pull request]($compare) to review them."; echo; cat sweep-summary.md; } > sweep-issue.md
+          issue=$(gh issue list --state open --search "in:title Sweep found new projects" --json number --jq '.[0].number')
+          if [ -n "$issue" ]; then
+            gh issue comment "$issue" --body-file sweep-issue.md
           else
-            gh pr create --base main --head sweep/next --title "New projects built on Corsair" --body-file sweep-summary.md
+            gh issue create --title "Sweep found new projects to review" --body-file sweep-issue.md
           fi
