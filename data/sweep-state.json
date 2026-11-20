@@ -1,0 +1,129 @@
+{
+  "graded": {
+    "amit0-dev/corsair-test": {
+      "verdict": "rejected",
+      "reason": "Bare test: about 100 lines in 11 files with the stock create-next-app README.",
+      "date": "2026-11-20"
+    },
+    "ankit4399/inboxos": {
+      "verdict": "rejected",
+      "reason": "Stock create-next-app README, no repo description and no live app; nothing tells a reader what it does or how to run it.",
+      "date": "2026-11-20"
+    },
+    "arsh-coding/ai-integrations-corsair": {
+      "verdict": "rejected",
+      "reason": "Small integration example (about 450 lines of example routes) with the stock create-next-app README plus setup steps; no product of its own.",
+      "date": "2026-11-20"
+    },
+    "ayan404joshi/network-traffic-analyzer": {
+      "verdict": "rejected",
+      "reason": "Same generated corsair_integration.py as three other repos uploaded on 2026-10-31: it prints plugin names and a placeholder connect URL with hard-coded fake keys and never calls the Corsair SDK or MCP.",
+      "date": "2026-11-20"
+    },
+    "ayushaggarwal1277/gmail_and_calender_integration": {
+      "verdict": "rejected",
+      "reason": "About 800 lines with the stock create-next-app README, no description and no live app.",
+      "date": "2026-11-20"
+    },
+    "bhaktofmahakal/my-automations": {
+      "verdict": "rejected",
+      "reason": "Collection repo of n8n workflows and scripts; Corsair is only in the shogun-cmo subfolder, which has no README. Could be listed if shogun-cmo gets its own repo or README.",
+      "date": "2026-11-20"
+    },
+    "chirag-jaipal/atlas": {
+      "verdict": "rejected",
+      "reason": "Stock create-next-app README, no repo description and no live app; nothing tells a reader what it does or how to run it.",
+      "date": "2026-11-20"
+    },
+    "devjain32/docs": {
+      "verdict": "rejected",
+      "reason": "Corsair team: Dev Jain (CEO) account, and it is docs content, not an outside project.",
+      "date": "2026-11-20"
+    },
+    "devshahbazahmed/chaicodecohort": {
+      "verdict": "rejected",
+      "reason": "Collection of cohort lectures and assignments; Corsair is only in one proof-of-concept subfolder (projects/corsair-poc).",
+      "date": "2026-11-20"
+    },
+    "devzshrc/helm": {
+      "verdict": "rejected",
+      "reason": "Stock T3 README and no repo description; the deployed URL returns 404 and DEPLOY.md only lists env vars. Substantial code (about 20k lines), so worth listing if the author adds a README.",
+      "date": "2026-11-20"
+    },
+    "gabrielmoreira/agent-skills-mirror": {
+      "verdict": "rejected",
+      "reason": "Aggregator that mirrors other repos' agent skill files; Corsair only appears inside mirrored third-party content.",
+      "date": "2026-11-20"
+    },
+    "harshcsrivastava/kage": {
+      "verdict": "rejected",
+      "reason": "Mostly the corsairdev/google-demo reference: half the code lines are from it (about 290 new lines) and the README is the stock T3 one.",
+      "date": "2026-11-20"
+    },
+    "kashyav367/corsair-poc-chaicode": {
+      "verdict": "rejected",
+      "reason": "Bare proof of concept: 4 source files (about 50 lines) and no README.",
+      "date": "2026-11-20"
+    },
+    "khannanirdesh-0408/wavelight": {
+      "verdict": "rejected",
+      "reason": "Same generated corsair_integration.py template as network-traffic-analyzer (uploaded 2026-10-31); no real Corsair SDK or MCP call.",
+      "date": "2026-11-20"
+    },
+    "kirtanpatel01/uzu": {
+      "verdict": "rejected",
+      "reason": "Unchanged shadcn template README, no repo description and no live app.",
+      "date": "2026-11-20"
+    },
+    "mukul2244/synckit": {
+      "verdict": "rejected",
+      "reason": "Built on corsairdev/google-demo with its setup-notes README left unchanged (12 files identical); no description or live app, so nothing tells a reader what it does.",
+      "date": "2026-11-20"
+    },
+    "priyanshwho/gmail-google-calander-webhooks": {
+      "verdict": "rejected",
+      "reason": "Copy of the hackathon reference repo corsairdev/google-demo: 14 of 21 source files are byte-identical and 81% of code lines come from it; stock T3 README.",
+      "date": "2026-11-20"
+    },
+    "raunakk942-lab/zig-scanner": {
+      "verdict": "rejected",
+      "reason": "Same generated corsair_integration.py template as network-traffic-analyzer (uploaded 2026-10-31); no real Corsair SDK or MCP call.",
+      "date": "2026-11-20"
+    },
+    "student-ankitpandit/musubi": {
+      "verdict": "rejected",
+      "reason": "Unchanged Turborepo starter README and about 280 lines of code; no description or live app.",
+      "date": "2026-11-20"
+    },
+    "sumitprajapati2468-code/rven": {
+      "verdict": "rejected",
+      "reason": "Same generated corsair_integration.py template as network-traffic-analyzer (uploaded 2026-10-31); no real Corsair SDK or MCP call.",
+      "date": "2026-11-20"
+    },
+    "vipluvj/agentic-mail-calendar": {
+      "verdict": "rejected",
+      "reason": "Stock create-next-app README, no repo description and no live app.",
+      "date": "2026-11-20"
+    },
+    "dhirenderchoudhary/zero_inbox": {
+      "verdict": "held",
+      "reason": "held: built by someone on the Corsair team",
+      "date": "2026-11-20"
+    },
+    "studio1hq/insightflow": {
+      "verdict": "held",
+      "reason": "held: check whether it was commissioned by Corsair",
+      "date": "2026-11-20"
+    },
+    "studio1hq/brieflane": {
+      "verdict": "held",
+      "reason": "held: check whether it was commissioned by Corsair",
+      "date": "2026-11-20"
+    },
+    "yuvraj2009bhatnagar/trinetra": {
+      "verdict": "held",
+      "reason": "held: sets up Corsair but its alerts call Slack and GitHub directly",
+      "date": "2026-11-20"
+    }
+  }
+}

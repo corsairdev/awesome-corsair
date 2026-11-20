@@ -60,6 +60,12 @@ An entry has to clear all of these:
 
 Stars don't matter. A small project that does one thing well is welcome.
 
+## The sweep
+
+Every three days a workflow ([`.github/workflows/sweep.yml`](.github/workflows/sweep.yml), code in [`tools/sweep`](tools/sweep/run.mjs)) searches GitHub for code that uses Corsair, asks Claude to grade each new repo against the rules above, and opens one pull request with the drafts. A maintainer checks each one before it merges. [`data/sweep-state.json`](data/sweep-state.json) records every repo it graded, so a rejected repo is looked at again only after 60 days.
+
+You don't need to wait for it: a pull request from you is read the same way.
+
 ## Taking an entry off
 
 Open an issue or a pull request that removes it. If it's your project, that's all it takes.

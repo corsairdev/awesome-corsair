@@ -8,7 +8,7 @@
 // scripts/build.mjs (CC0).
 
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
-import { fileURLToPath } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { dirname, join } from "node:path";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -19,7 +19,7 @@ const END = "<!-- END GENERATED -->";
 
 /* A minimal YAML reader for the one shape used here: a list of flat maps. It supports "- key: value",
    "  key: value", [a, b], "quoted strings", true/false and whole-line # comments. */
-function parseList(text, file) {
+export function parseList(text, file) {
   const out = [];
   let cur = null;
   text.split(/\r?\n/).forEach((raw, i) => {
@@ -65,13 +65,13 @@ const asArray = (v) => (Array.isArray(v) ? v : v ? [v] : []);
 
 // Metadata in backticks rather than emoji: `hosted` `TypeScript` needs no legend. `oss` prints nothing, since the
 // Source Code link already says it.
-const KIND = { hosted: "hosted", oss: null, skill: "skill", writeup: "write-up" };
-const LANG = { py: "Python", ts: "TypeScript", js: "JavaScript", go: "Go", rust: "Rust", other: null };
+export const KIND = { hosted: "hosted", oss: null, skill: "skill", writeup: "write-up" };
+export const LANG = { py: "Python", ts: "TypeScript", js: "JavaScript", go: "Go", rust: "Rust", other: null };
 
 // Our own work does not go on the list: the corsairdev org and the people on the Corsair team.
-const OURS = /^(corsairdev|devjain32|PranayHaldiya|yuvrxj-afk|Dhirenderchoudhary|ambikeesshh|Corsair-ops)\//i;
+export const OURS = /^(corsairdev|devjain32|PranayHaldiya|yuvrxj-afk|Dhirenderchoudhary|ambikeesshh|Corsair-ops)\//i;
 
-function validate(projects, categories) {
+export function validate(projects, categories) {
   const errors = [];
   const ids = new Set();
   const catIds = new Set(categories.map((c) => c.id));
@@ -221,4 +221,5 @@ function build() {
   console.log(`Wrote README.md and data/built-with.json: ${projects.length} entries across ${new Set(projects.map((p) => p.category)).size} categories.`);
 }
 
-build();
+// Run when called as a script; tools/sweep imports the reader and the rules without building.
+if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) build();

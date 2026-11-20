@@ -1,0 +1,15 @@
+{
+  "name": "awesome-corsair-sweep",
+  "private": true,
+  "type": "module",
+  "description": "Finds new projects built on Corsair and drafts entries for review.",
+  "scripts": {
+    "sweep": "node run.mjs",
+    "dry-run": "DRY_RUN=1 node run.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.11.0",
+    "zod": "^4.6.7"
+  },
+  "license": "CC0-1.0"
+}
