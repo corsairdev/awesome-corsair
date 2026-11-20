@@ -159,6 +159,32 @@ function renderCategorised(projects, categories) {
   return lines.join("\n");
 }
 
+/** Width and height of a PNG or JPEG, read from its header; null for anything else. */
+export function imageSize(buf) {
+  if (buf.length > 24 && buf.readUInt32BE(0) === 0x89504e47) return { width: buf.readUInt32BE(16), height: buf.readUInt32BE(20) };
+  if (buf.length < 4 || buf[0] !== 0xff || buf[1] !== 0xd8) return null;
+  // JPEG: walk the segments to the frame header (SOF0-SOF15, except DHT, JPG and DAC), which holds the size.
+  for (let i = 2; i + 9 < buf.length; ) {
+    if (buf[i] !== 0xff) return null;
+    const marker = buf[i + 1];
+    if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker))
+      return { width: buf.readUInt16BE(i + 7), height: buf.readUInt16BE(i + 5) };
+    i += 2 + buf.readUInt16BE(i + 2);
+  }
+  return null;
+}
+
+/** The entry's picture in data/shots (tools/shots/capture.mjs makes them), with its size; null if it has none. */
+function shot(id) {
+  for (const ext of ["jpg", "png"]) {
+    const path = `data/shots/${id}.${ext}`;
+    if (!existsSync(join(ROOT, path))) continue;
+    const size = imageSize(readFileSync(join(ROOT, path)));
+    if (size) return { path, ...size };
+  }
+  return null;
+}
+
 /** What a site (corsair.dev/built-with) reads: the same entries as the README, as JSON. */
 function showcase(projects, categories) {
   return `${JSON.stringify(
@@ -180,6 +206,7 @@ function showcase(projects, categories) {
         hosted: asArray(p.kind).includes("hosted") && !/github\.com/.test(p.url),
         added: p.added,
         verified: p.verified === true,
+        image: shot(p.id),
       })),
     },
     null,

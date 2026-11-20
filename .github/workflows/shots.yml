@@ -1,0 +1,54 @@
+name: shots
+
+# Gives every entry its picture for corsair.dev/built-with (tools/shots/capture.mjs): a screenshot of the live app,
+# or GitHub's card for the repo. Runs when data/projects.yaml changes on main, takes only the missing pictures,
+# rebuilds data/built-with.json and commits both to main. A push made with GITHUB_TOKEN starts no other workflow.
+
+on:
+  push:
+    branches: [main]
+    paths: [data/projects.yaml]
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: "Entry ids to take again, space-separated (empty: only entries without a picture)"
+        required: false
+        default: ""
+      wait:
+        description: "Milliseconds to let a page settle before the screenshot"
+        required: false
+        default: "2500"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shots
+  cancel-in-progress: false
+
+jobs:
+  shots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm i --no-save --no-audit --no-fund playwright@1.65
+      - run: npx playwright install --with-deps chromium
+      - name: Take the missing pictures
+        env:
+          IDS: ${{ inputs.ids }}
+          WAIT_MS: ${{ inputs.wait || '2500' }}
+        # IDS is split into words on purpose; an id that isn't in data/projects.yaml matches nothing.
+        run: node tools/shots/capture.mjs --wait="$WAIT_MS" $IDS
+      - run: node scripts/build.mjs
+      - name: Commit the pictures
+        run: |
+          git add data/shots data/built-with.json
+          if git diff --cached --quiet; then echo "No new pictures."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -m "shots: pictures for new entries"
+          git push
