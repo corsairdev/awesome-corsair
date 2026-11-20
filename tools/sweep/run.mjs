@@ -35,12 +35,30 @@ const README_MAX = 30_000;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-async function gh(path) {
-  const res = await fetch(`https://api.github.com/${path}`, {
-    headers: { accept: "application/vnd.github+json", authorization: `Bearer ${process.env.GITHUB_TOKEN}`, "x-github-api-version": "2022-11-28" },
-  });
-  if (!res.ok) throw new Error(`GitHub ${path}: ${res.status} ${await res.text()}`);
-  return res.json();
+/** How long GitHub asks us to wait: retry-after, then the reset time, then the "try again in Ns" in the body. */
+function waitFor(res, body) {
+  const after = Number(res.headers.get("retry-after"));
+  if (after > 0) return after * 1000;
+  const reset = Number(res.headers.get("x-ratelimit-reset"));
+  if (reset > 0 && res.headers.get("x-ratelimit-remaining") === "0") return Math.max(1000, reset * 1000 - Date.now());
+  const said = body.match(/try again in ([\d.]+)s/);
+  return said ? Number(said[1]) * 1000 : 60_000;
+}
+
+async function gh(path, tries = 6) {
+  for (let attempt = 1; ; attempt++) {
+    const res = await fetch(`https://api.github.com/${path}`, {
+      headers: { accept: "application/vnd.github+json", authorization: `Bearer ${process.env.GITHUB_TOKEN}`, "x-github-api-version": "2022-11-28" },
+    });
+    if (res.ok) return res.json();
+    const body = await res.text();
+    // Search has a tight secondary limit (a 429, or a 403 that says "rate limit"): wait as told, then try again.
+    const limited = res.status === 429 || (res.status === 403 && /rate limit/i.test(body));
+    if (!limited || attempt === tries) throw new Error(`GitHub ${path}: ${res.status} ${body}`);
+    const ms = Math.min(waitFor(res, body) + 1000, 120_000);
+    console.log(`GitHub rate limit on ${path.split("?")[0]}, waiting ${Math.round(ms / 1000)}s`);
+    await sleep(ms);
+  }
 }
 
 async function raw(repo, path) {
