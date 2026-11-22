@@ -10,15 +10,15 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 
 <div align="center">
 
-![projects](https://img.shields.io/badge/projects-59-4a38f5?style=flat-square) ![live apps](https://img.shields.io/badge/live%20apps-35-4a38f5?style=flat-square) ![categories](https://img.shields.io/badge/categories-6-4a38f5?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![projects](https://img.shields.io/badge/projects-68-4a38f5?style=flat-square) ![live apps](https://img.shields.io/badge/live%20apps-40-4a38f5?style=flat-square) ![categories](https://img.shields.io/badge/categories-6-4a38f5?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 </div>
 
 <div align="center">
 
 <table>
-  <tr><td><a href="#email-and-calendar">Email and calendar</a> <sub>47</sub></td><td><a href="#workspaces">Workspaces</a> <sub>6</sub></td><td><a href="#team-automation">Team automation</a> <sub>1</sub></td></tr>
-  <tr><td><a href="#apps-for-one-industry">Apps for one industry</a> <sub>3</sub></td><td><a href="#agent-platforms">Agent platforms</a> <sub>1</sub></td><td><a href="#write-ups">Write-ups</a> <sub>1</sub></td></tr>
+  <tr><td><a href="#email-and-calendar">Email and calendar</a> <sub>54</sub></td><td><a href="#workspaces">Workspaces</a> <sub>6</sub></td><td><a href="#team-automation">Team automation</a> <sub>1</sub></td></tr>
+  <tr><td><a href="#apps-for-one-industry">Apps for one industry</a> <sub>5</sub></td><td><a href="#agent-platforms">Agent platforms</a> <sub>1</sub></td><td><a href="#write-ups">Write-ups</a> <sub>1</sub></td></tr>
 </table>
 
 </div>
@@ -32,6 +32,7 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 - [AskClerio](https://askclerio.dev) - A keyboard-first command center for Gmail and Google Calendar that turns multi-step tasks like invite plus confirmation email into one command. ([Source Code](https://github.com/himanshubalani/askclerio)) `hosted` `TypeScript` `uses gmail, googlecalendar, github +1` `ChaiCode cohort`
 - [Briefly AI](https://briiefly-ai.vercel.app) - Unifies Gmail and Google Calendar with inbox briefings, an assistant and meeting prep in one workspace. ([Source Code](https://github.com/Satya7250/Briefly-AI)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Calrix](https://github.com/bikash138/Calrix) - Sorts Gmail into reply, approval, meeting and FYI buckets, drafts replies in your voice and tracks replies you are still waiting on. `TypeScript` `uses gmail, googlecalendar, mcp`
+- [Camail](https://camail.kushagratrivedi.me) - Chat assistant that reads, drafts and replies to Gmail and schedules Google Calendar events using your own model API key. ([Source Code](https://github.com/kushagratrvd/Camail)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Camail AI](https://camail-ai.vercel.app) - A keyboard-first workspace that routes every Gmail and Google Calendar operation through Corsair, with OpenAI or Gemini command parsing. ([Source Code](https://github.com/jaiPrakash0909/Camail_Ai)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Chai Combinator](https://github.com/Mayank-saraswal/superhuman) - An email client for founders and sales teams that triages, writes and organizes mail with AI, using Corsair for Gmail and Calendar. `TypeScript` `uses gmail, googlecalendar, slack +3`
 - [Chai Sonic](https://www.chaisonic.com) - A keyboard-first email and calendar dashboard where an agent runs cross-app requests, such as booking a meeting and emailing the invitee. ([Source Code](https://github.com/akash-yadav-hack/chaisonic-superhuman-clone)) `hosted` `TypeScript` `uses gmail, googlecalendar, github +1` `ChaiCode cohort`
@@ -53,13 +54,18 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 - [Mailroid](https://github.com/Shriyansh10/mailroid) - Prioritizes email, writes executive briefings and runs natural-language actions across Gmail and Google Calendar. `TypeScript` `uses gmail, googlecalendar` `ChaiCode cohort`
 - [Marilume](https://www.marilume.xyz) - A Superhuman-inspired email and calendar workspace with an AI assistant, built on Corsair Gmail and Calendar plugins. ([Source Code](https://github.com/shweta-nigam/marilume)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Meridian](https://meridian.parthmunjal.in) - An email and calendar client with an agent chat, voice commands and a morning digest, built on the Vercel AI SDK and Corsair. ([Source Code](https://github.com/parthmunjal07/meridian)) `hosted` `TypeScript` `uses gmail, googlecalendar`
+- [Meridian](https://github.com/thetejascodes/Meridian) - Gmail and Google Calendar client for searching, drafting and sending mail and creating events, with webhooks syncing a local Postgres cache. `TypeScript` `uses gmail, googlecalendar` `Corsair Hackathon`
 - [Modern Connect](https://modern-connect-mu.vercel.app) - A real-time dashboard that shows Gmail and Google Calendar side by side, using the Corsair SDK for the Google APIs. ([Source Code](https://github.com/thakurdivyanshugahlot/modern-connect)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Neurosync](https://theneurosync.in) - A personal AI operator that summarizes threads, drafts replies and schedules Google Calendar events through a chat agent. ([Source Code](https://github.com/sharmadipalidev/neurosync)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [NeutronMail](https://neutron-mail.vercel.app) - Rebuilds the NormalHuman keyboard-first email client on Corsair for Gmail and Calendar, with a demo mailbox until live credentials are set. ([Source Code](https://github.com/ANAMASGARD/NeutronMail)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Nexus](https://github.com/Shaurya9935/nexus) - A Gmail and Google Calendar command center for searching, triaging, drafting and scheduling by natural language or direct controls. `TypeScript` `uses gmail, googlecalendar, github +1`
+- [Noctra](https://github.com/AbhinavBist-01/noctra) - An email and calendar dashboard that manages Gmail and Google Calendar through natural language commands, with a local Postgres cache. `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Nova AI](https://nova.rajibdev.me) - A Superhuman-style workspace where an OpenAI agent on Corsair MCP reads mail, drafts replies and manages the calendar, with voice input. ([Source Code](https://github.com/Rajib1504/Nova)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp` `ChaiCode cohort`
 - [Novus Flow](https://novus-flow.vercel.app) - Puts email, calendar and an AI assistant in one interface to cut down switching between apps. ([Source Code](https://github.com/Aryan22N/Novus-Flow)) `hosted` `TypeScript` `uses gmail, googlecalendar, github +1`
+- [NovusMail](https://novus.vinayrp.in/) - Keyboard-first Gmail and Google Calendar workspace with a command palette and an AI assistant that drafts replies and proposes events for user approval. ([Source Code](https://github.com/GhostInHex/novus-mail)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Orbit](https://github.com/rayvishal024/orbit) - Brings Gmail, Google Calendar and an AI assistant into one workspace for reading mail, managing meetings and scheduling events. `TypeScript` `uses gmail, googlecalendar`
+- [Orion](https://orion.arnabsamanta.in/) - An AI assistant for Gmail and Google Calendar that syncs mail and events, summarizes threads, drafts replies and schedules meetings. ([Source Code](https://github.com/learner-enthusiast/NoClickMail)) `hosted` `TypeScript` `uses gmail, googlecalendar`
+- [Personal AI Dashboard](https://personal-ai-dashboard-eight.vercel.app) - A multi-user dashboard for Gmail, Google Calendar and Google Meet with an assistant that drafts emails and schedules meetings for you to confirm. ([Source Code](https://github.com/Arsh-Coding/Personal-Ai-Dashboard)) `hosted` `TypeScript` `uses gmail, googlecalendar, googlemeet`
 - [Relay](https://relay-lemon-tau.vercel.app) - A console for email triage and scheduling that keeps Gmail and Calendar calls server-side and holds every write until you approve it. ([Source Code](https://github.com/Devx2107/relay)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Relay](https://relay.bhavaynagpal.com) - Combines Gmail and Google Calendar with a chat agent that drafts emails and books events after you approve them. ([Source Code](https://github.com/bhavay098/relay)) `hosted` `JavaScript` `uses gmail, googlecalendar`
 - [Relay](https://github.com/kashyav367/relay) - An executive assistant for Gmail and Google Calendar that summarizes unread mail, drafts replies and prepares daily briefings. `TypeScript` `uses gmail, googlecalendar`
@@ -68,6 +74,7 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 - [SuperEA](https://www.superea.app) - An executive assistant that reacts to Gmail and Calendar webhooks and lets you approve or revise drafts from a dashboard or Telegram. ([Source Code](https://github.com/SChakraborty04/projectSEA)) `hosted` `TypeScript` `uses gmail, googlecalendar, telegram +1`
 - [Thread](https://ashutech.me) - A Gmail and Google Calendar client with AI triage, plain-language scheduling and an assistant that drafts replies and creates events. ([Source Code](https://github.com/AlgoArtist06/Thread)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Tsunagu](https://github.com/DhruvSood05/tsunagu) - Turns one natural-language command into Gmail and Google Calendar actions, such as sending an email and scheduling the meeting together. `TypeScript` `uses gmail, googlecalendar, mcp`
+- [Tsunagu](https://github.com/Manish-dev38/tsunagu) - Chat based Gmail and Google Calendar assistant that asks for approval before writes and also offers direct inbox and calendar views. `TypeScript` `uses gmail, googlecalendar`
 - [Underpin](https://github.com/maheshshm19/horizon_two) - An AI workspace for Gmail and Calendar with vector search, an activity feed and rule-based suggestions on top of Corsair plugins. `TypeScript` `uses gmail, googlecalendar` `ChaiCode cohort`
 - [Valora](https://www.valorahq.in) - Merges Gmail, Google Calendar and an AI agent into one workspace, with a long write-up of how it uses the Corsair SDK. ([Source Code](https://github.com/ashaafkhan/valora)) `hosted` `TypeScript` `uses gmail, googlecalendar, github`
 - [Voyage](https://github.com/Atishay-j-a-in/voyage_post) - A multi-tenant workspace that syncs Gmail and Calendar, embeds mail for semantic search and lets you act on both through chat. `TypeScript` `uses gmail, googlecalendar, mcp`
@@ -103,8 +110,10 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 <sub>Products for a single audience that use Corsair for alerts, booking or notices.</sub>
 
 - [AI Guardian](https://github.com/Aviralgit1212/AI-GUARDIAN) - A data-loss-prevention layer that checks what users send to ChatGPT or Claude and alerts a Slack reviewer through a Corsair sidecar. `Python` `TypeScript` `uses slack`
+- [CARE360](https://github.com/Utkarshkumar005/care360-app) - Healthcare platform with patient, doctor, pharmacy and admin portals that files GitHub issues through Corsair when pharmacy stock runs out. `TypeScript` `uses github` `Hack & Build 2026`
 - [Lakshya Scheduling](https://lakshya-scheduling.vercel.app) - A mentorship booking system for civil service aspirants where a LangGraph agent books sessions through a Corsair Gmail and Calendar bridge. ([Source Code](https://github.com/MRIARC-08/lakshya-scheduling)) `hosted` `TypeScript` `Python` `uses gmail, googlecalendar`
 - [PharmSecure](https://github.com/Phasmmo7/pharmsecure) - A pharmaceutical supply-chain verification prototype whose agent posts alerts to Slack, files GitHub issues and sends email through Corsair. `JavaScript` `uses gmail, github, slack +1`
+- [Undone](https://sidequesthq-site.vercel.app) - Microlearning platform that turns YouTube videos, articles, GitHub repos and Notion pages into short lessons, adaptive feeds, cohorts and study rooms. ([Source Code](https://github.com/th-efool/undone-site)) `hosted` `TypeScript` `uses github, notion`
 
 <sup>[back to top](#readme)</sup>
 
