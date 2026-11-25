@@ -10,15 +10,16 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 
 <div align="center">
 
-![projects](https://img.shields.io/badge/projects-68-4a38f5?style=flat-square) ![live apps](https://img.shields.io/badge/live%20apps-40-4a38f5?style=flat-square) ![categories](https://img.shields.io/badge/categories-6-4a38f5?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![projects](https://img.shields.io/badge/projects-84-4a38f5?style=flat-square) ![live apps](https://img.shields.io/badge/live%20apps-49-4a38f5?style=flat-square) ![categories](https://img.shields.io/badge/categories-7-4a38f5?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 </div>
 
 <div align="center">
 
 <table>
-  <tr><td><a href="#email-and-calendar">Email and calendar</a> <sub>54</sub></td><td><a href="#workspaces">Workspaces</a> <sub>6</sub></td><td><a href="#team-automation">Team automation</a> <sub>1</sub></td></tr>
-  <tr><td><a href="#apps-for-one-industry">Apps for one industry</a> <sub>5</sub></td><td><a href="#agent-platforms">Agent platforms</a> <sub>1</sub></td><td><a href="#write-ups">Write-ups</a> <sub>1</sub></td></tr>
+  <tr><td><a href="#email-and-calendar">Email and calendar</a> <sub>66</sub></td><td><a href="#workspaces">Workspaces</a> <sub>7</sub></td><td><a href="#team-automation">Team automation</a> <sub>2</sub></td></tr>
+  <tr><td><a href="#apps-for-one-industry">Apps for one industry</a> <sub>5</sub></td><td><a href="#research">Research</a> <sub>1</sub></td><td><a href="#agent-platforms">Agent platforms</a> <sub>2</sub></td></tr>
+  <tr><td><a href="#write-ups">Write-ups</a> <sub>1</sub></td></tr>
 </table>
 
 </div>
@@ -30,6 +31,7 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 - [Aethra](https://aethra.rachittaneja.in) - An email and calendar app with AI drafting, human review of agent actions, admin tools and billing, using Corsair for Gmail and Calendar. ([Source Code](https://github.com/rachittaneja56-max/superhumanclone)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [ARGON AI](https://argon.priyanshu.cv) - A Gmail and Calendar workspace where the assistant prepares editable email and outreach drafts for review, with per-user rate limits. ([Source Code](https://github.com/priyanshwho/argonai)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [AskClerio](https://askclerio.dev) - A keyboard-first command center for Gmail and Google Calendar that turns multi-step tasks like invite plus confirmation email into one command. ([Source Code](https://github.com/himanshubalani/askclerio)) `hosted` `TypeScript` `uses gmail, googlecalendar, github +1` `ChaiCode cohort`
+- [BetterSpace](https://github.com/TheSoumenMondal/betterspace) - An AI workspace that connects Gmail and Google Calendar to organize email, manage meetings and automate follow-ups. `TypeScript` `uses gmail, googlecalendar`
 - [Briefly AI](https://briiefly-ai.vercel.app) - Unifies Gmail and Google Calendar with inbox briefings, an assistant and meeting prep in one workspace. ([Source Code](https://github.com/Satya7250/Briefly-AI)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Calrix](https://github.com/bikash138/Calrix) - Sorts Gmail into reply, approval, meeting and FYI buckets, drafts replies in your voice and tracks replies you are still waiting on. `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Camail](https://camail.kushagratrivedi.me) - Chat assistant that reads, drafts and replies to Gmail and schedules Google Calendar events using your own model API key. ([Source Code](https://github.com/kushagratrvd/Camail)) `hosted` `TypeScript` `uses gmail, googlecalendar`
@@ -37,11 +39,13 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 - [Chai Combinator](https://github.com/Mayank-saraswal/superhuman) - An email client for founders and sales teams that triages, writes and organizes mail with AI, using Corsair for Gmail and Calendar. `TypeScript` `uses gmail, googlecalendar, slack +3`
 - [Chai Sonic](https://www.chaisonic.com) - A keyboard-first email and calendar dashboard where an agent runs cross-app requests, such as booking a meeting and emailing the invitee. ([Source Code](https://github.com/akash-yadav-hack/chaisonic-superhuman-clone)) `hosted` `TypeScript` `uses gmail, googlecalendar, github +1` `ChaiCode cohort`
 - [Chronos](https://github.com/anshdietcoke20/chronos-chaicode) - A productivity dashboard with Gmail, Google Calendar, an agent chat, a command palette and one Corsair tenant per user. `JavaScript` `uses gmail, googlecalendar, github` `ChaiCode cohort`
+- [Ciel](https://ciel.mistjs.com/) - AI assistant that syncs Gmail and Google Calendar, ranks emails by priority, offers semantic search, and drafts replies through a chat agent. ([Source Code](https://github.com/mistjsxr/ciel)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Command Box](https://github.com/ashishsingodiya/commandbox) - A Superhuman-style Gmail and Calendar client with cache-first threads, webhooks, semantic search and an AI copilot for drafting. `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Command Inbox](https://github.com/Ishan-Parnami/command-inbox) - A Superhuman-style Gmail and Calendar client with Vim keys, Gemini priority sorting, natural-language compose and MCP agent chat. `TypeScript` `uses gmail, googlecalendar`
 - [Command Inbox](https://command-inbox.sayantanbal.in) - Triages Gmail into reply, schedule and FYI lanes, turns an email into a meeting in one keystroke and runs agent workflows through Corsair MCP. ([Source Code](https://github.com/sayantanbal/commad-inbox)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp` `ChaiCode cohort`
 - [Corsair Mail](https://github.com/debeshghorui/corsair-project) - A Superhuman-style Gmail and Calendar client with a split-pane inbox, local search, AI priority triage and a bring-your-own-key agent. `JavaScript` `uses gmail, googlecalendar, github +1`
 - [CoxswainAI](https://cox-swain-ai.vercel.app) - A Superhuman-inspired inbox and calendar app with AI assistance, using Corsair for Gmail, Google Calendar and GitHub. ([Source Code](https://github.com/vismay1307/CoxSwainAI)) `hosted` `TypeScript` `uses gmail, googlecalendar, github`
+- [Cruxsee](https://github.com/jahanwee/cruxsee) - A keyboard-first AI assistant that drafts Gmail messages, schedules calendar events and fetches HackerNews stories, with user approval before actions. `TypeScript` `uses gmail, googlecalendar`
 - [Flux](https://flux-beryl-two.vercel.app) - An executive assistant over Gmail and Google Calendar that builds a daily briefing and handles mail and meetings from one screen. ([Source Code](https://github.com/Ankit0362/flux)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Ginnie AI](https://ginnie-iota.vercel.app) - Categorizes, summarizes and automates email and calendar work from one command center, with subscription tiers billed through Razorpay. ([Source Code](https://github.com/karan2opp/Ginnie)) `hosted` `TypeScript` `uses gmail, googlecalendar, github +1`
 - [Helm](https://helm.houndcode.com) - A keyboard-first command center for Gmail and Google Calendar that puts search, triage, scheduling and replies a keystroke away. ([Source Code](https://github.com/NandishwarSingh/helm)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp` `ChaiCode cohort`
@@ -52,6 +56,7 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 - [MailPilot](https://github.com/omkarg419/MailPilot) - Wraps Gmail and Google Calendar in mail, calendar and agent workspaces where you search mail, draft emails and book meetings in plain language. `TypeScript` `uses gmail, googlecalendar` `ChaiCode cohort`
 - [MailPoint](https://mailpoint.piyushdev.online) - Turns one request into a coordinated Gmail and Google Calendar workflow, such as scheduling a meeting and sending the confirmation. ([Source Code](https://github.com/Piyushkumar-20/MailPoint)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Mailroid](https://github.com/Shriyansh10/mailroid) - Prioritizes email, writes executive briefings and runs natural-language actions across Gmail and Google Calendar. `TypeScript` `uses gmail, googlecalendar` `ChaiCode cohort`
+- [MailyFlow](https://mailyflow.in) - Email and calendar client on Gmail and Google Calendar with AI priority sorting, summaries, reply drafts and a chat assistant. ([Source Code](https://github.com/PallabDev/MailyFlow-an-ai-first-email-client)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Marilume](https://www.marilume.xyz) - A Superhuman-inspired email and calendar workspace with an AI assistant, built on Corsair Gmail and Calendar plugins. ([Source Code](https://github.com/shweta-nigam/marilume)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Meridian](https://meridian.parthmunjal.in) - An email and calendar client with an agent chat, voice commands and a morning digest, built on the Vercel AI SDK and Corsair. ([Source Code](https://github.com/parthmunjal07/meridian)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Meridian](https://github.com/thetejascodes/Meridian) - Gmail and Google Calendar client for searching, drafting and sending mail and creating events, with webhooks syncing a local Postgres cache. `TypeScript` `uses gmail, googlecalendar` `Corsair Hackathon`
@@ -66,16 +71,24 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 - [Orbit](https://github.com/rayvishal024/orbit) - Brings Gmail, Google Calendar and an AI assistant into one workspace for reading mail, managing meetings and scheduling events. `TypeScript` `uses gmail, googlecalendar`
 - [Orion](https://orion.arnabsamanta.in/) - An AI assistant for Gmail and Google Calendar that syncs mail and events, summarizes threads, drafts replies and schedules meetings. ([Source Code](https://github.com/learner-enthusiast/NoClickMail)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Personal AI Dashboard](https://personal-ai-dashboard-eight.vercel.app) - A multi-user dashboard for Gmail, Google Calendar and Google Meet with an assistant that drafts emails and schedules meetings for you to confirm. ([Source Code](https://github.com/Arsh-Coding/Personal-Ai-Dashboard)) `hosted` `TypeScript` `uses gmail, googlecalendar, googlemeet`
+- [Pulse](https://pulse-three-zeta.vercel.app) - Keyboard-first Gmail and Google Calendar client with an AI chat that drafts replies and schedules meetings through Corsair MCP. ([Source Code](https://github.com/Pratik4230/Pulse)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp` `ChaiCode × Corsair Builder Mode On Hackathon`
 - [Relay](https://relay-lemon-tau.vercel.app) - A console for email triage and scheduling that keeps Gmail and Calendar calls server-side and holds every write until you approve it. ([Source Code](https://github.com/Devx2107/relay)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Relay](https://relay.bhavaynagpal.com) - Combines Gmail and Google Calendar with a chat agent that drafts emails and books events after you approve them. ([Source Code](https://github.com/bhavay098/relay)) `hosted` `JavaScript` `uses gmail, googlecalendar`
 - [Relay](https://github.com/kashyav367/relay) - An executive assistant for Gmail and Google Calendar that summarizes unread mail, drafts replies and prepares daily briefings. `TypeScript` `uses gmail, googlecalendar`
+- [SayDo](https://github.com/paramveer-cyber/SayDo) - Gmail and Google Calendar assistant with a Gemini agent that triages mail, manages events and runs background Inngest workflows. `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Second Brain](https://secondbrain.sameerbhagtani.dev) - A chat workspace built with Clerk, Corsair and OpenAI Agents that connects to Gmail and Google Calendar. ([Source Code](https://github.com/sameerbhagtani/second-brain)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
+- [SlotNest](https://github.com/Rithb898/slotnest) - Next.js workspace for Gmail and Google Calendar triage, replies and scheduling, with approval steps before any outbound action. `TypeScript` `uses gmail, googlecalendar, mcp`
+- [Spamurai](https://spamurai-black.vercel.app) - An AI workspace that connects Gmail and Google Calendar to read, search and send email and manage events through natural language. ([Source Code](https://github.com/Kunalmadoliya/corsair-hackathon)) `hosted` `TypeScript` `uses gmail, googlecalendar` `Corsair hackathon`
+- [Super](https://supamail-five.vercel.app) - Gmail and Google Calendar client with an AI chat agent, LLM email prioritisation, semantic search and real-time sync. ([Source Code](https://github.com/SHIVAMYADAV25/super)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [SuperAlien](https://superalein.lalitgurjar.in) - Adds triage, summaries and agent actions on top of Gmail and Google Calendar, built as a modular Next.js app on Corsair connectors. ([Source Code](https://github.com/lalit999999/super-alien)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [SuperEA](https://www.superea.app) - An executive assistant that reacts to Gmail and Calendar webhooks and lets you approve or revise drafts from a dashboard or Telegram. ([Source Code](https://github.com/SChakraborty04/projectSEA)) `hosted` `TypeScript` `uses gmail, googlecalendar, telegram +1`
+- [Tacta Workspace](https://orbit-command-inbox.vercel.app) - An AI inbox and calendar workspace for Gmail and Google Calendar with email triage, scheduling, command shortcuts and a chat agent. ([Source Code](https://github.com/Subhrangsu90/orbit-command-inbox)) `hosted` `TypeScript` `uses gmail, googlecalendar, github +2`
 - [Thread](https://ashutech.me) - A Gmail and Google Calendar client with AI triage, plain-language scheduling and an assistant that drafts replies and creates events. ([Source Code](https://github.com/AlgoArtist06/Thread)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Tsunagu](https://github.com/DhruvSood05/tsunagu) - Turns one natural-language command into Gmail and Google Calendar actions, such as sending an email and scheduling the meeting together. `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Tsunagu](https://github.com/Manish-dev38/tsunagu) - Chat based Gmail and Google Calendar assistant that asks for approval before writes and also offers direct inbox and calendar views. `TypeScript` `uses gmail, googlecalendar`
+- [Tsunagu](https://www.tsunagu.in) - Gmail and Google Calendar workspace with an AI agent that drafts replies and proposes events, sending nothing until you approve. ([Source Code](https://github.com/dhruvvsood/tsunagu)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Underpin](https://github.com/maheshshm19/horizon_two) - An AI workspace for Gmail and Calendar with vector search, an activity feed and rule-based suggestions on top of Corsair plugins. `TypeScript` `uses gmail, googlecalendar` `ChaiCode cohort`
+- [Unigent](https://unigent.in) - A keyboard-first dashboard where an AI agent triages Gmail, drafts and sends email, and schedules Google Calendar events from natural language commands. ([Source Code](https://github.com/shyamhz/unigent)) `hosted` `TypeScript` `uses gmail, googlecalendar`
 - [Valora](https://www.valorahq.in) - Merges Gmail, Google Calendar and an AI agent into one workspace, with a long write-up of how it uses the Corsair SDK. ([Source Code](https://github.com/ashaafkhan/valora)) `hosted` `TypeScript` `uses gmail, googlecalendar, github`
 - [Voyage](https://github.com/Atishay-j-a-in/voyage_post) - A multi-tenant workspace that syncs Gmail and Calendar, embeds mail for semantic search and lets you act on both through chat. `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Yugati](https://www.yugati.in) - Manages Gmail and Google Calendar through an OpenAI Agents SDK chat or a manual interface, with an admin panel for usage and costs. ([Source Code](https://github.com/srvjha/yugati)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
@@ -90,6 +103,7 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 
 - [Butlr](https://github.com/Samrat880/Butlr) - A Gmail, Calendar and GitHub assistant with a chat panel, a daily brief, confirmation before destructive actions and usage tiers. `TypeScript` `uses gmail, googlecalendar, github`
 - [Hedwigs](https://github.com/gourav-swami/sparrow-) - A shared inbox and AI chief of staff that scores email, drafts replies and schedules across Gmail, Outlook, Slack, Linear and other tools. `TypeScript` `uses gmail, googlecalendar, slack +14` `ChaiCode cohort`
+- [Hedwigs](https://www.hedwigs.site/) - An AI inbox and workspace that triages Gmail and Outlook mail, drafts replies, schedules events and links tools like Jira, Slack and HubSpot. ([Source Code](https://github.com/Mayank-saraswal/jacksparrow)) `hosted` `TypeScript` `uses gmail, outlook, googlecalendar +14` `Corsair x Chaicode Hackathon`
 - [Momentum](https://momentum-hackathon-sr.vercel.app) - Pulls Gmail, Google Calendar, Slack and GitHub into one priority inbox and runs plain-language requests after you approve them. ([Source Code](https://github.com/saurabhravte/momentum)) `hosted` `TypeScript` `uses gmail, googlecalendar, github +2`
 - [Open Connect](https://github.com/anandxdj/open_connect) - A chat-first app where an agent acts on Gmail, Google Calendar, Slack and GitHub through Corsair, with approval before risky actions. `TypeScript` `uses gmail, googlecalendar, github +1` `ChaiCode cohort`
 - [Supereye](https://github.com/satyasootar/supereye) - One workspace that connects Gmail, Google Calendar, GitHub and Google Drive so you can act across them without switching tabs. `TypeScript` `uses gmail, googlecalendar, googledrive +2` `ChaiCode cohort`
@@ -102,6 +116,7 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 <sub>Agents that move work between team tools, such as meetings to issues or releases to changelogs.</sub>
 
 - [AI Changelog Narrator](https://github.com/VarshithKrishna14/AI-Changelog) - When you publish a GitHub release it writes a changelog, posts it to Slack and archives it in Notion, with GitHub kept read-only. `TypeScript` `uses github, slack, notion`
+- [Gitzy](https://github.com/koushikmanchikanti11/github-analyser) - A Next.js app that analyses GitHub activity with OpenAI and sends email reports through Gmail. `TypeScript` `uses github, gmail`
 
 <sup>[back to top](#readme)</sup>
 
@@ -117,11 +132,20 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 
 <sup>[back to top](#readme)</sup>
 
+### Research
+
+<sub>People, companies and meetings, looked up before you need them.</sub>
+
+- [RepoScout](https://github.com/sujal12344/repoScout) - CLI that uses Gemini and the GitHub API to find trending repos and beginner-friendly issues matched to your skills. `TypeScript` `uses github`
+
+<sup>[back to top](#readme)</sup>
+
 ### Agent platforms
 
 <sub>Platforms and frameworks that run Corsair as their integration layer.</sub>
 
 - [Avintra](https://github.com/aventisia/avintra) - An enterprise agent and workflow platform that runs Corsair as an internal sidecar for app actions and OAuth across 287 plugins. `TypeScript` `uses gmail, googlecalendar, github +284`
+- [Hermes Agent](https://hermes-agent.nousresearch.com) - Self-improving AI agent with memory, skills, cron jobs and a messaging gateway, with Corsair available as an MCP plugin in its catalog. ([Source Code](https://github.com/NousResearch/hermes-agent)) `Python` `TypeScript` `uses mcp`
 
 <sup>[back to top](#readme)</sup>
 

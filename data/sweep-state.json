@@ -249,6 +249,131 @@
       "verdict": "rejected",
       "reason": "It is a create-next-app scaffold with only the Corsair Hub GitHub setup steps added, a bare setup test rather than a real project.",
       "date": "2026-11-22"
+    },
+    "nousresearch/hermes-agent": {
+      "verdict": "accepted",
+      "reason": "Hermes Agent is an independent agent platform by Nous Research that ships a plugin catalog entry pointing at the Corsair MCP server (mcp.corsair.dev) in plugin-catalog/corsair.yaml.",
+      "date": "2026-11-25"
+    },
+    "thor726/thor-agent": {
+      "verdict": "rejected",
+      "reason": "This looks like a rebranded copy of the Hermes Agent repo (Nous Portal references remain), and Corsair appears only as one entry in a plugin catalog file, not as a meaningful part of the project.",
+      "date": "2026-11-25"
+    },
+    "ngpestelos-mirrors/hermes-agent": {
+      "verdict": "rejected",
+      "reason": "This is a mirror copy of NousResearch/hermes-agent rather than an original project, and Corsair only appears as one plugin-catalog entry among many.",
+      "date": "2026-11-25"
+    },
+    "onewhitepaper/aino": {
+      "verdict": "rejected",
+      "reason": "This is a rebranded copy of Hermes Agent where Corsair appears only as one entry in an inherited plugin catalog, not as something the project itself builds on.",
+      "date": "2026-11-25"
+    },
+    "filewrap/hermes": {
+      "verdict": "rejected",
+      "reason": "This looks like an unmarked copy of NousResearch's Hermes Agent, where Corsair appears only as one MCP entry in a plugin catalog rather than as the project's own integration layer.",
+      "date": "2026-11-25"
+    },
+    "dhruvvsood/tsunagu": {
+      "verdict": "accepted",
+      "reason": "An independent, substantial Gmail and Google Calendar agent app that depends on corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar and @corsair-dev/mcp and creates its Corsair instance in db/index.ts.",
+      "date": "2026-11-25"
+    },
+    "divakardsp/negev": {
+      "verdict": "rejected",
+      "reason": "Although it depends on corsair and @corsair-dev/github, the README is the unchanged create-next-app boilerplate and nothing shown confirms a working project beyond an early scaffold, and its described Outlook and Gmail purpose doesn't match the GitHub-only Corsair use.",
+      "date": "2026-11-25"
+    },
+    "kartik82006/corsair_poc": {
+      "verdict": "rejected",
+      "reason": "It is a bare proof of concept that only wires the Corsair GitHub plugin into Express with a health check and a connect route, so it is not a real project.",
+      "date": "2026-11-25"
+    },
+    "hiteshdhayal/company-brain": {
+      "verdict": "rejected",
+      "reason": "The only visible Corsair use is a debug script, there is no README or root manifest showing a real project built on Corsair, so it reads as a bare test.",
+      "date": "2026-11-25"
+    },
+    "sujal12344/reposcout": {
+      "verdict": "accepted",
+      "reason": "An independent CLI that depends on @corsair-dev/github and imports it in src/server/corsair.ts to find repos and beginner-friendly issues for contributors.",
+      "date": "2026-11-25"
+    },
+    "koushikmanchikanti11/github-analyser": {
+      "verdict": "accepted",
+      "reason": "An independent Next.js app that depends on corsair, @corsair-dev/github and @corsair-dev/gmail, with Corsair client code in lib/corsair/client.ts.",
+      "date": "2026-11-25"
+    },
+    "paramveer-cyber/saydo": {
+      "verdict": "accepted",
+      "reason": "An independent Gmail and Calendar assistant whose backend uses Corsair's @corsair-dev/gmail and @corsair-dev/googlecalendar plugins and a Corsair-backed MCP server, though the evidence comes from the README since there is no root package.json.",
+      "date": "2026-11-25"
+    },
+    "mayank-saraswal/jacksparrow": {
+      "verdict": "accepted",
+      "reason": "An independent Next.js app that depends on corsair and seventeen @corsair-dev plugins to power a unified inbox and workspace with an AI assistant.",
+      "date": "2026-11-25"
+    },
+    "shivamyadav25/super": {
+      "verdict": "accepted",
+      "reason": "An independent Gmail and Google Calendar client that depends on corsair, @corsair-dev/gmail and @corsair-dev/googlecalendar and uses Corsair for tenants, webhooks and MCP tools.",
+      "date": "2026-11-25"
+    },
+    "mistjsxr/ciel": {
+      "verdict": "accepted",
+      "reason": "An independent Gmail and Google Calendar assistant that depends on corsair, @corsair-dev/gmail and @corsair-dev/googlecalendar, with a live hosted site.",
+      "date": "2026-11-25"
+    },
+    "thesoumenmondal/betterspace": {
+      "verdict": "accepted",
+      "reason": "An independent Next.js workspace app that depends on corsair and @corsair-dev/gmail and googlecalendar, with Corsair configured in src/corsair.ts.",
+      "date": "2026-11-25"
+    },
+    "subhrangsu90/orbit-command-inbox": {
+      "verdict": "accepted",
+      "reason": "An independent Gmail and Google Calendar command center app that lists corsair and several @corsair-dev plugins as dependencies in package.json.",
+      "date": "2026-11-25"
+    },
+    "shyamhz/unigent": {
+      "verdict": "accepted",
+      "reason": "An independent Next.js email and calendar dashboard that lists corsair, @corsair-dev/gmail and @corsair-dev/googlecalendar as dependencies and has a Corsair setup script.",
+      "date": "2026-11-25"
+    },
+    "pallabdev/mailyflow-an-ai-first-email-client": {
+      "verdict": "accepted",
+      "reason": "An independent AI email and calendar client that depends on corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar and @corsair-dev/mcp, and uses them for Gmail, Calendar and agent tools.",
+      "date": "2026-11-25"
+    },
+    "ankitkumarhub/fly": {
+      "verdict": "rejected",
+      "reason": "With no README, no root package.json and no description, there is too little to confirm it is a real project beyond a single Corsair file, so a maintainer should check it by hand.",
+      "date": "2026-11-25"
+    },
+    "rithb898/slotnest": {
+      "verdict": "accepted",
+      "reason": "SlotNest is an independent Next.js inbox and calendar app that depends on corsair, @corsair-dev/gmail and @corsair-dev/googlecalendar for its Gmail and Calendar connections.",
+      "date": "2026-11-25"
+    },
+    "jahanwee/cruxsee": {
+      "verdict": "accepted",
+      "reason": "An independent AI assistant app for email and calendar that imports @corsair-dev/gmail in its own packages/corsair workspace package and configures a CORSAIR_KEK key.",
+      "date": "2026-11-25"
+    },
+    "kunalmadoliya/corsair-hackathon": {
+      "verdict": "accepted",
+      "reason": "An outside Gmail and Google Calendar workspace that imports @corsair-dev/gmail in its service layer, with a live deployment.",
+      "date": "2026-11-25"
+    },
+    "sameer-ts-tech/velocity-serve": {
+      "verdict": "rejected",
+      "reason": "It depends on Corsair, but with no README, description or homepage there is nothing to show it is a real project rather than a bare starter or test.",
+      "date": "2026-11-25"
+    },
+    "pratik4230/pulse": {
+      "verdict": "accepted",
+      "reason": "An independent Gmail and Google Calendar app that depends on corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar and @corsair-dev/mcp to run its AI agent, with a live deployment.",
+      "date": "2026-11-25"
     }
   }
 }

@@ -1058,3 +1058,246 @@
   added: 2026-11-22
   event: Corsair Hackathon
   verified: false
+
+- id: hermes-agent
+  name: Hermes Agent
+  url: https://hermes-agent.nousresearch.com
+  repo: NousResearch/hermes-agent
+  author: "@NousResearch"
+  category: framework-integrations
+  kind: [oss]
+  lang: [py, ts]
+  corsair: [mcp]
+  evidence: plugin-catalog/corsair.yaml configures the Corsair MCP server at mcp.corsair.dev as a plugin.
+  description: Self-improving AI agent with memory, skills, cron jobs and a messaging gateway, with Corsair available as an MCP plugin in its catalog.
+  created: 2025-07-22
+  added: 2026-11-25
+  verified: false
+
+- id: dhruvvsood-tsunagu
+  name: Tsunagu
+  url: https://www.tsunagu.in
+  repo: dhruvvsood/tsunagu
+  author: "@dhruvvsood"
+  category: email-calendar
+  kind: [hosted, oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar, mcp]
+  evidence: package.json lists corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar and @corsair-dev/mcp, and db/index.ts imports @corsair-dev/gmail and sets up the Corsair instance.
+  description: Gmail and Google Calendar workspace with an AI agent that drafts replies and proposes events, sending nothing until you approve.
+  created: 2026-06-12
+  added: 2026-11-25
+  verified: false
+
+- id: reposcout
+  name: RepoScout
+  url: https://github.com/sujal12344/repoScout
+  repo: sujal12344/repoScout
+  author: "@sujal12344"
+  category: research-intel
+  kind: [oss]
+  lang: [ts]
+  corsair: [github]
+  evidence: package.json lists @corsair-dev/github and @corsair-dev/cli; src/server/corsair.ts sets up the Corsair GitHub plugin.
+  description: CLI that uses Gemini and the GitHub API to find trending repos and beginner-friendly issues matched to your skills.
+  created: 2026-07-11
+  added: 2026-11-25
+  verified: false
+
+- id: github-analyser
+  name: Gitzy
+  url: https://github.com/koushikmanchikanti11/github-analyser
+  repo: koushikmanchikanti11/github-analyser
+  author: "@koushikmanchikanti11"
+  category: ops-automation
+  kind: [oss]
+  lang: [ts]
+  corsair: [github, gmail]
+  evidence: package.json lists corsair, @corsair-dev/github and @corsair-dev/gmail; lib/corsair/client.ts sets up the Corsair client with the Gmail plugin.
+  description: A Next.js app that analyses GitHub activity with OpenAI and sends email reports through Gmail.
+  created: 2026-06-08
+  added: 2026-11-25
+  verified: false
+
+- id: saydo
+  name: SayDo
+  url: https://github.com/paramveer-cyber/SayDo
+  repo: paramveer-cyber/SayDo
+  author: "@paramveer-cyber"
+  category: email-calendar
+  kind: [oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar, mcp]
+  evidence: README.md lists @corsair-dev/gmail and @corsair-dev/googlecalendar as backend dependencies and describes backend/src/corsair.ts as the Corsair instance with Gmail and Calendar plugins.
+  description: Gmail and Google Calendar assistant with a Gemini agent that triages mail, manages events and runs background Inngest workflows.
+  created: 2026-06-17
+  added: 2026-11-25
+  verified: false
+
+- id: jacksparrow
+  name: Hedwigs
+  url: https://www.hedwigs.site/
+  repo: Mayank-saraswal/jacksparrow
+  author: "@Mayank-saraswal"
+  category: productivity
+  kind: [hosted, oss]
+  lang: [ts]
+  corsair: [gmail, outlook, googlecalendar, slack, jira, linear, hubspot, notion, zoom, teams, zendesk, intercom, calendly, cal, todoist, asana, fireflies]
+  evidence: package.json lists corsair ^0.1.76 and @corsair-dev/gmail, outlook, slack, jira, linear, hubspot and others, plus a corsair:setup script.
+  description: An AI inbox and workspace that triages Gmail and Outlook mail, drafts replies, schedules events and links tools like Jira, Slack and HubSpot.
+  created: 2026-06-11
+  added: 2026-11-25
+  event: Corsair x Chaicode Hackathon
+  verified: false
+
+- id: super
+  name: Super
+  url: https://supamail-five.vercel.app
+  repo: SHIVAMYADAV25/super
+  author: "@SHIVAMYADAV25"
+  category: email-calendar
+  kind: [hosted, oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar, mcp]
+  evidence: package.json lists corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar and @corsair-dev/mcp; src/server/lib/corsair.ts holds the Corsair singleton and getTenant().
+  description: Gmail and Google Calendar client with an AI chat agent, LLM email prioritisation, semantic search and real-time sync.
+  created: 2026-06-09
+  added: 2026-11-25
+  verified: false
+
+- id: ciel
+  name: Ciel
+  url: https://ciel.mistjs.com/
+  repo: mistjsxr/ciel
+  author: "@mistjsxr"
+  category: email-calendar
+  kind: [hosted, oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar]
+  evidence: package.json lists corsair, @corsair-dev/gmail and @corsair-dev/googlecalendar as dependencies.
+  description: AI assistant that syncs Gmail and Google Calendar, ranks emails by priority, offers semantic search, and drafts replies through a chat agent.
+  created: 2026-06-08
+  added: 2026-11-25
+  verified: false
+
+- id: betterspace
+  name: BetterSpace
+  url: https://github.com/TheSoumenMondal/betterspace
+  repo: TheSoumenMondal/betterspace
+  author: "@TheSoumenMondal"
+  category: email-calendar
+  kind: [oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar]
+  evidence: package.json lists corsair 0.1.74, @corsair-dev/gmail and @corsair-dev/googlecalendar; src/corsair.ts imports @corsair-dev/gmail.
+  description: An AI workspace that connects Gmail and Google Calendar to organize email, manage meetings and automate follow-ups.
+  created: 2026-06-10
+  added: 2026-11-25
+  verified: false
+
+- id: orbit-command-inbox
+  name: Tacta Workspace
+  url: https://orbit-command-inbox.vercel.app
+  repo: Subhrangsu90/orbit-command-inbox
+  author: "@Subhrangsu90"
+  category: email-calendar
+  kind: [hosted, oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar, github, teams, mcp]
+  evidence: package.json lists corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar, @corsair-dev/github, @corsair-dev/teams and @corsair-dev/mcp as dependencies.
+  description: An AI inbox and calendar workspace for Gmail and Google Calendar with email triage, scheduling, command shortcuts and a chat agent.
+  created: 2026-06-12
+  added: 2026-11-25
+  verified: false
+
+- id: unigent
+  name: Unigent
+  url: https://unigent.in
+  repo: shyamhz/unigent
+  author: "@shyamhz"
+  category: email-calendar
+  kind: [hosted, oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar]
+  evidence: package.json lists corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar and a corsair:setup script running src/scripts/setup-corsair.ts.
+  description: A keyboard-first dashboard where an AI agent triages Gmail, drafts and sends email, and schedules Google Calendar events from natural language commands.
+  created: 2026-06-16
+  added: 2026-11-25
+  verified: false
+
+- id: mailyflow-an-ai-first-email-client
+  name: MailyFlow
+  url: https://mailyflow.in
+  repo: PallabDev/MailyFlow-an-ai-first-email-client
+  author: "@PallabDev"
+  category: email-calendar
+  kind: [hosted, oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar, mcp]
+  evidence: package.json lists corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar and @corsair-dev/mcp; README points to src/lib/corsair/index.ts for the Corsair instance.
+  description: Email and calendar client on Gmail and Google Calendar with AI priority sorting, summaries, reply drafts and a chat assistant.
+  created: 2026-06-13
+  added: 2026-11-25
+  verified: false
+
+- id: slotnest
+  name: SlotNest
+  url: https://github.com/Rithb898/slotnest
+  repo: Rithb898/slotnest
+  author: "@Rithb898"
+  category: email-calendar
+  kind: [oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar, mcp]
+  evidence: package.json lists corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar and @corsair-dev/mcp as dependencies; the README describes Corsair connect and callback routes.
+  description: Next.js workspace for Gmail and Google Calendar triage, replies and scheduling, with approval steps before any outbound action.
+  created: 2026-06-11
+  added: 2026-11-25
+  verified: false
+
+- id: cruxsee
+  name: Cruxsee
+  url: https://github.com/jahanwee/cruxsee
+  repo: jahanwee/cruxsee
+  author: "@jahanwee"
+  category: email-calendar
+  kind: [oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar]
+  evidence: packages/corsair/src/index.ts imports @corsair-dev/gmail; README sets CORSAIR_KEK in .env
+  description: A keyboard-first AI assistant that drafts Gmail messages, schedules calendar events and fetches HackerNews stories, with user approval before actions.
+  created: 2026-06-15
+  added: 2026-11-25
+  verified: false
+
+- id: corsair-hackathon
+  name: Spamurai
+  url: https://spamurai-black.vercel.app
+  repo: Kunalmadoliya/corsair-hackathon
+  author: "@Kunalmadoliya"
+  category: email-calendar
+  kind: [hosted, oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar]
+  evidence: packages/services/corsair.ts imports @corsair-dev/gmail to set up the Corsair integration.
+  description: An AI workspace that connects Gmail and Google Calendar to read, search and send email and manage events through natural language.
+  created: 2026-06-13
+  added: 2026-11-25
+  event: Corsair hackathon
+  verified: false
+
+- id: pulse
+  name: Pulse
+  url: https://pulse-three-zeta.vercel.app
+  repo: Pratik4230/Pulse
+  author: "@Pratik4230"
+  category: email-calendar
+  kind: [hosted, oss]
+  lang: [ts]
+  corsair: [gmail, googlecalendar, mcp]
+  evidence: package.json lists corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar and @corsair-dev/mcp as dependencies; the README describes features/integrations and features/pulse using Corsair OAuth and MCP.
+  description: Keyboard-first Gmail and Google Calendar client with an AI chat that drafts replies and schedules meetings through Corsair MCP.
+  created: 2026-03-25
+  added: 2026-11-25
+  event: ChaiCode × Corsair Builder Mode On Hackathon
+  verified: false
