@@ -1301,3 +1301,18 @@
   added: 2026-11-25
   event: ChaiCode × Corsair Builder Mode On Hackathon
   verified: false
+
+- id: mailformee
+  name: Mailformee
+  url: https://mailformee-web.vercel.app
+  repo: aizen2006/mailformee
+  author: "@aizen2006"
+  category: email-calendar
+  kind: [hosted, oss]
+  lang: [ts]
+  corsair: [gmail]
+  evidence: bun.lock lists the @corsair-dev/gmail package (workspace dependency, likely in apps/backend).
+  description: An AI email assistant with a web dashboard and Chrome extension that drafts emails, replies and follow ups in your style and sends them through Gmail.
+  created: 2026-03-19
+  added: 2026-11-28
+  verified: false

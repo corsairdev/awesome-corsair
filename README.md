@@ -10,14 +10,14 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 
 <div align="center">
 
-![projects](https://img.shields.io/badge/projects-84-4a38f5?style=flat-square) ![live apps](https://img.shields.io/badge/live%20apps-49-4a38f5?style=flat-square) ![categories](https://img.shields.io/badge/categories-7-4a38f5?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+![projects](https://img.shields.io/badge/projects-85-4a38f5?style=flat-square) ![live apps](https://img.shields.io/badge/live%20apps-50-4a38f5?style=flat-square) ![categories](https://img.shields.io/badge/categories-7-4a38f5?style=flat-square) [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 </div>
 
 <div align="center">
 
 <table>
-  <tr><td><a href="#email-and-calendar">Email and calendar</a> <sub>66</sub></td><td><a href="#workspaces">Workspaces</a> <sub>7</sub></td><td><a href="#team-automation">Team automation</a> <sub>2</sub></td></tr>
+  <tr><td><a href="#email-and-calendar">Email and calendar</a> <sub>67</sub></td><td><a href="#workspaces">Workspaces</a> <sub>7</sub></td><td><a href="#team-automation">Team automation</a> <sub>2</sub></td></tr>
   <tr><td><a href="#apps-for-one-industry">Apps for one industry</a> <sub>5</sub></td><td><a href="#research">Research</a> <sub>1</sub></td><td><a href="#agent-platforms">Agent platforms</a> <sub>2</sub></td></tr>
   <tr><td><a href="#write-ups">Write-ups</a> <sub>1</sub></td></tr>
 </table>
@@ -53,6 +53,7 @@ Corsair connects apps and agents to 700+ integrations (Gmail, Slack, GitHub, Goo
 - [King Mode](https://kingmode.skullcoder.dev) - A keyboard-driven email and calendar app with a command center where a bring-your-own-key AI runs multi-step Gmail and Calendar tasks. ([Source Code](https://github.com/Skull-coder/king_mode--corsair-hackathon)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp` `ChaiCode cohort`
 - [KODA](https://koda.shubhamdalvi.in) - Gmail and Google Calendar behind one typed or spoken command, for drafting replies, booking meetings and tracking what you are owed. ([Source Code](https://github.com/codermoderSD/koda)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Maical](https://maical.vercel.app) - A multi-tenant assistant that reads your inbox and sends email for you, using @corsair-dev/mcp with OpenAI Agents. ([Source Code](https://github.com/shubh7470/corsair)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
+- [Mailformee](https://mailformee-web.vercel.app) - An AI email assistant with a web dashboard and Chrome extension that drafts emails, replies and follow ups in your style and sends them through Gmail. ([Source Code](https://github.com/aizen2006/mailformee)) `hosted` `TypeScript` `uses gmail`
 - [MailPilot](https://github.com/omkarg419/MailPilot) - Wraps Gmail and Google Calendar in mail, calendar and agent workspaces where you search mail, draft emails and book meetings in plain language. `TypeScript` `uses gmail, googlecalendar` `ChaiCode cohort`
 - [MailPoint](https://mailpoint.piyushdev.online) - Turns one request into a coordinated Gmail and Google Calendar workflow, such as scheduling a meeting and sending the confirmation. ([Source Code](https://github.com/Piyushkumar-20/MailPoint)) `hosted` `TypeScript` `uses gmail, googlecalendar, mcp`
 - [Mailroid](https://github.com/Shriyansh10/mailroid) - Prioritizes email, writes executive briefings and runs natural-language actions across Gmail and Google Calendar. `TypeScript` `uses gmail, googlecalendar` `ChaiCode cohort`

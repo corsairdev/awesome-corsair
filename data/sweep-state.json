@@ -374,6 +374,106 @@
       "verdict": "accepted",
       "reason": "An independent Gmail and Google Calendar app that depends on corsair, @corsair-dev/gmail, @corsair-dev/googlecalendar and @corsair-dev/mcp to run its AI agent, with a live deployment.",
       "date": "2026-11-25"
+    },
+    "corpusiq/corpusiq-docs": {
+      "verdict": "rejected",
+      "reason": "This is a docs repo for CorpusIQ's own MCP product, and the only Corsair trace is a mention of mcp.corsair.dev inside a sweep notes markdown file, not a real use of Corsair.",
+      "date": "2026-11-28"
+    },
+    "q8imk/sana": {
+      "verdict": "rejected",
+      "reason": "This is a rebranded copy of Nous Research's Hermes Agent, and the Corsair MCP URL appears only in an inherited plugin catalog entry rather than as original work built on Corsair.",
+      "date": "2026-11-28"
+    },
+    "vivekyadav247/kriyzen": {
+      "verdict": "rejected",
+      "reason": "Corsair packages are listed as dependencies but the README states no Google integrations are implemented yet, so it is an early scaffold rather than a real project using Corsair.",
+      "date": "2026-11-28"
+    },
+    "br41s/hermes-sandbox": {
+      "verdict": "rejected",
+      "reason": "This is a copy of NousResearch's Hermes Agent repo where Corsair only appears as one MCP entry in a plugin catalog, not a project built on Corsair.",
+      "date": "2026-11-28"
+    },
+    "raynalei/progenesis": {
+      "verdict": "rejected",
+      "reason": "Corsair appears only as a plugin catalog entry in a hermes-agent subfolder of a repo with no README or description, so it is not a clear Corsair project.",
+      "date": "2026-11-28"
+    },
+    "sruhvx-jpg/svachalan": {
+      "verdict": "rejected",
+      "reason": "Corsair dependencies and a Gmail plugin file are present, but the README describes only a generic tRPC monorepo scaffold, so there is no clear evidence of a real project built on Corsair.",
+      "date": "2026-11-28"
+    },
+    "amito13/corsair": {
+      "verdict": "rejected",
+      "reason": "Although it depends on corsair and @corsair-dev/gmail, the repo has only the default bun init README and nothing to show it is more than a starter or test project.",
+      "date": "2026-11-28"
+    },
+    "369koushil/corsair_test": {
+      "verdict": "rejected",
+      "reason": "The repo is named corsair_test and reads as a personal test of the standard Corsair Gmail and Calendar with OpenAI Agents setup rather than a distinct project.",
+      "date": "2026-11-28"
+    },
+    "ayandi999/attempt2": {
+      "verdict": "rejected",
+      "reason": "It looks like a bare test setup with no README, no description and only a Corsair GitHub plugin config, so it is not a real project.",
+      "date": "2026-11-28"
+    },
+    "kunalmadoliya/corsair-fixed-repo": {
+      "verdict": "rejected",
+      "reason": "It looks like a bare test or setup scaffold: an empty README, the name 'corsair-fixed-repo', and a GitHub plugin plus OpenAI agents boilerplate with no described purpose, so it is not a real project.",
+      "date": "2026-11-28"
+    },
+    "amito13/corsair-integration-": {
+      "verdict": "rejected",
+      "reason": "It is an unnamed proof of concept with a default bun init README and no description, so it reads as a bare test rather than a real project.",
+      "date": "2026-11-28"
+    },
+    "abdullahatiq-dev/corsair-demo": {
+      "verdict": "rejected",
+      "reason": "It is a basic demo that wires the Corsair GitHub plugin to an OpenAI agent, essentially the standard quickstart example with little beyond it, so it reads as a tutorial copy or bare test rather than a real project.",
+      "date": "2026-11-28"
+    },
+    "lalit999999/corsair-practise": {
+      "verdict": "rejected",
+      "reason": "A practice repo with no README, a default package.json and only a Corsair setup file, so it is a bare test rather than a real project.",
+      "date": "2026-11-28"
+    },
+    "kushagratrvd/corsair": {
+      "verdict": "rejected",
+      "reason": "With no README, description or homepage, this looks like a bare setup of the Corsair Gmail and MCP packages on Express rather than a real project anyone can evaluate.",
+      "date": "2026-11-28"
+    },
+    "kunalmadoliya/corsair-poc": {
+      "verdict": "rejected",
+      "reason": "It is a bare proof of concept with a default bun init README and no described functionality, so it does not count as a real project.",
+      "date": "2026-11-28"
+    },
+    "kunalmadoliya/corsair-prac": {
+      "verdict": "rejected",
+      "reason": "A practice repo with the stock create-next-app README and no description, so it reads as a bare test of Corsair rather than a real project.",
+      "date": "2026-11-28"
+    },
+    "valherugr/bfme2": {
+      "verdict": "rejected",
+      "reason": "This is a BFME2 game mod where \"createCorsair\" refers to an in-game pirate ship unit in an INI file, not the Corsair integration layer.",
+      "date": "2026-11-28"
+    },
+    "theory903/aicp": {
+      "verdict": "rejected",
+      "reason": "Corsair appears only as a @corsair-dev/gmail dependency in one subfolder UI package of a large governance platform, and the README never mentions Corsair as part of how it works.",
+      "date": "2026-11-28"
+    },
+    "aizen2006/mailformee": {
+      "verdict": "accepted",
+      "reason": "An independent, working Gmail writing assistant whose bun.lock lists @corsair-dev/gmail, so the Corsair use can be checked in the repo.",
+      "date": "2026-11-28"
+    },
+    "nickbland/gamejam2023": {
+      "verdict": "rejected",
+      "reason": "This is a p5.js space game where createCorsair is a sprite factory for a Corsair ship, not a use of the Corsair integration layer, and it has no corsair dependency, imports or MCP URL.",
+      "date": "2026-11-28"
     }
   }
 }

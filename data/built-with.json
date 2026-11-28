@@ -2443,6 +2443,30 @@
       "added": "2026-11-25",
       "verified": false,
       "image": null
+    },
+    {
+      "id": "mailformee",
+      "name": "Mailformee",
+      "url": "https://mailformee-web.vercel.app",
+      "repo": "aizen2006/mailformee",
+      "author": "@aizen2006",
+      "category": "email-calendar",
+      "kind": [
+        "hosted",
+        "oss"
+      ],
+      "lang": [
+        "TypeScript"
+      ],
+      "corsair": [
+        "gmail"
+      ],
+      "description": "An AI email assistant with a web dashboard and Chrome extension that drafts emails, replies and follow ups in your style and sends them through Gmail.",
+      "event": "",
+      "hosted": true,
+      "added": "2026-11-28",
+      "verified": false,
+      "image": null
     }
   ]
 }
